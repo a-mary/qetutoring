@@ -1,0 +1,112 @@
+.cities-list {
+    border-top: 1px solid #231f20;
+    padding-top: 24px;
+    margin-top: 24px;
+}
+
+.cities-list__wrapper {
+    margin: 0 -8px;
+}
+
+.cities-list__item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 8px 8px;
+}
+
+.cities-list__item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cities-list__item a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.find-section__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    border-top: 1px solid #231f20;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.find-section__header-icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    font-size: 0;
+    line-height: 0;
+    margin-right: 20px;
+    background: transparent url("/toronto/map-icon.png") no-repeat 0 0;
+}
+
+.find-section__header-text {
+    font-family: "CalisMTBol", "Calisto MT", serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.125em;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+}
+
+.find-cities {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.find-cities__wrapper {
+    margin: 0 -5px;
+    font-size: 0;
+    line-height: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.find-cities__item {
+    width: 33.33%;
+    padding: 0 5px 10px;
+}
+
+.find-cities__item span,
+.find-cities__item a {
+    display: block;
+    height: 100%;
+    border: 1px solid #231f20;
+    font-size: 14px;
+    line-height: 1.2em;
+    padding: 6px 10px;
+}
+
+.find-cities__item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.find-cities__item a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+	.find-section__header {
+        flex-direction: column;
+    }
+
+    .find-section__header-text {
+        margin-top: 20px;
+    }
+
+    .find-cities__item {
+        width: 50%;
+    }
+}
