@@ -43,7 +43,8 @@
     font-size: 0;
     line-height: 0;
     margin-right: 20px;
-    background: transparent url("/toronto/map-icon.png") no-repeat 0 0;
+    /*background: transparent url("/toronto/map-icon.png") no-repeat 0 0;*/
+    background: transparent url("./toronto/map-icon.png") no-repeat 0 0;
 }
 
 .find-section__header-text {
