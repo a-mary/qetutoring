@@ -4118,6 +4118,10 @@ body {
   padding: 0;
 }
 
+.math-city-header {
+  line-height: 70px;
+}
+
 .mt-img-banner--math .pt-img-banner__title span {
   color: #ff2800;
 }
@@ -4539,6 +4543,11 @@ body {
     font-size: 60px;
     line-height: 1.125em;
   }
+
+  .math-city-header {
+    line-height: 1.125em;;
+  }
+
   .mt-img-banner--math img {
     margin-left: -4px;
     margin-right: -4px;
@@ -4678,6 +4687,11 @@ body {
     font-size: 40px;
     line-height: 1.125em;
   }
+
+  .math-city-header {
+    line-height: 1.125em;;
+  }
+
   .mt-img-banner--math img {
     margin-left: -4px;
     margin-right: -4px;
