@@ -2044,7 +2044,8 @@ body {
   content: '';
   display: block;
   width: 1px;
-  background: transparent url("/Home_files/shapeimage_1.png") repeat 0 0;
+  /*background: transparent url("/Home_files/shapeimage_1.png") repeat 0 0;*/
+  background: transparent url("shapeimage_1.png") repeat 0 0;
   position: absolute;
   left: 50%;
   margin-left: 24px;
