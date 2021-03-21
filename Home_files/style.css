@@ -2033,7 +2033,8 @@ body {
 }
 
 .intro {
-  background: #000 url("/Home_files/sky.png") no-repeat top center;
+  /*background: #000 url("/Home_files/sky.png") no-repeat top center;*/
+  background: #000 url("sky.png") no-repeat top center;
   background-size: cover;
   padding: 34px 24px 53px;
   position: relative;
