@@ -886,6 +886,13 @@
     opacity: 0.1;
 }
 
+.pt-img-banner--science-page.pt-img-banner--align-top-left .pt-img-banner__title h1 {
+    margin-top: 0 !important;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
 .pt-img-banner--overlay .pt-img-banner__title {
     z-index: 2;
     color: #000;
