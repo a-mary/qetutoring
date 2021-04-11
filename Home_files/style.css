@@ -4127,7 +4127,7 @@ body {
 .mt-img-banner--math img {
   margin-left: -4px;
   margin-right: -4px;
-  max-width: calc(100%+ 8px);
+  max-width: calc(100% + 8px);
 }
 
 .pt-img-banner--mt-grade9 .pt-img-banner__title {
