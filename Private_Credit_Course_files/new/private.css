@@ -10,11 +10,11 @@
 
 .private-header h1 {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 400;
-    margin: 0 0 0.5em;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 400;
+	margin: 0 0 0.5em;
 	padding: 0;
 	text-align: left;
 }
@@ -24,8 +24,8 @@
 	line-height: 1.2em;
 	font-family: "CalisMTBol", "Calisto MT", serif;
 	color: #010101;
-    font-weight: 400;
-    margin: 0 0 21px;
+	font-weight: 400;
+	margin: 0 0 21px;
 }
 
 .classroom-lectures {
@@ -52,13 +52,13 @@
 
 .classroom-lectures__header {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 400;
-    margin: 0 0 21px;
-    padding: 0 0 0.25em;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 400;
+	margin: 0 0 21px;
+	padding: 0 0 0.25em;
+	text-align: left;
 }
 
 .exp-videos__grid-inner {
@@ -76,24 +76,24 @@
 
 .exp-videos__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 400;
-    margin: 0 0 21px;
-    padding: 0;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 400;
+	margin: 0 0 21px;
+	padding: 0;
+	text-align: left;
 }
 
 .exp-video-card__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 400;
-    margin: 16px 0 21px;
-    padding: 0;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 400;
+	margin: 16px 0 21px;
+	padding: 0;
+	text-align: left;
 }
 
 .exp-videos {
@@ -103,24 +103,24 @@
 
 .st-benefits__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 1em;
-    padding: 0;
-    text-align: left;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 1em;
+	padding: 0;
+	text-align: left;
 }
 
 .st-benefits__subheading {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.5em;
-    padding: 0;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.5em;
+	padding: 0;
+	text-align: left;
 }
 
 .st-benefits-l1 {
@@ -150,15 +150,21 @@
 	margin-top: 30px;
 }
 
+.course-offered__title-small {
+	font-size: 24px;
+	line-height: 1.2em;
+	margin-bottom: 2em;
+}
+
 .course-offered__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.5em;
-    padding: 0;
-    text-align: left;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.5em;
+	padding: 0;
+	text-align: left;
 }
 
 .course-offered-item {
@@ -171,13 +177,13 @@
 
 .course-offered-item__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 24px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.25em;
-    padding: 0;
-    text-align: left;
+	font-size: 24px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.25em;
+	padding: 0;
+	text-align: left;
 }
 
 .course-offered-item__text {
@@ -202,7 +208,7 @@
 
 .o-tutor-card__subtitle {
 	font-size: 18px;
-	line-height: 1.2em;	
+	line-height: 1.2em;
 }
 
 .o-tutor-card__text {
@@ -224,22 +230,22 @@
 
 .m-tutors-thank-heading__text {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.25em;
-    padding: 0;
-    text-align: left;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.25em;
+	padding: 0;
+	text-align: left;
 }
 
 .m-tutors-thank-heading__bottom {
 	color: #010506;
-    font-family: 'Garamond-Bold', 'Garamond';
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1.1em;
-    margin-top: 0.7em;
+	font-family: 'Garamond-Bold', 'Garamond';
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.1em;
+	margin-top: 0.7em;
 }
 
 .m-tutors-thank-heading__rating {
@@ -274,28 +280,28 @@
 
 .p-reviews__title {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.5em;
-    padding: 0;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.5em;
+	padding: 0;
 }
 
 .p-reviews__subtitle {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 20px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.25em;
-    padding: 0;
+	font-size: 20px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.25em;
+	padding: 0;
 }
 
 .p-reviews-top .wp-google-rating {
 	color: #e7711b;
-    font-size: 20px;
-    margin: 0 6px 0 0;
+	font-size: 20px;
+	margin: 0 6px 0 0;
 	vertical-align: middle;
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -306,8 +312,8 @@
 
 .p-review-card .wp-more-toggle {
 	color: #136aaf;
-    cursor: pointer;
-    text-decoration: underline;
+	cursor: pointer;
+	text-decoration: underline;
 }
 
 .p-review-card__top {
@@ -328,10 +334,10 @@
 
 .p-review-card__name {
 	color: black;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0 0 2px;
-    padding-right: 6px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 2px;
+	padding-right: 6px;
 	text-decoration: none;
 	line-height: 20px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -369,11 +375,11 @@
 
 .achievers-inquiry__heading-big {
 	font-family: "CalisMTBol", "Calisto MT", serif;
-    font-size: 36px;
-    line-height: 1.2em;
-    color: #010101;
-    font-weight: 700;
-    margin: 0 0 0.5em;
+	font-size: 36px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 0 0 0.5em;
 	padding: 0.25em 0 0 0;
 	text-align: center;
 }
@@ -391,7 +397,7 @@
 
 .pc-study-tips--bigger-font .pc-study-tip__title {
 	font-size: 18px;
-    line-height: 1.2em;
+	line-height: 1.2em;
 }
 
 .pc-study-tips--bigger-font .pc-study-tip__content {
@@ -417,7 +423,7 @@
 
 .find-section-wrapper-course-page {
 	padding-left: 15px;
-    padding-right: 15px;
+	padding-right: 15px;
 	background-color: #f4f3cc;
 	padding-bottom: 30px;
 }
@@ -531,14 +537,14 @@
 
 .study-tips-new-banner__text {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #fff;
-    font-size: 60px;
-    line-height: 1em;
-    font-weight: 400;
-    margin: 0;
-    padding: 8px 40px 12px 15px;
-    position: absolute;
-    bottom: 15px;
+	color: #fff;
+	font-size: 60px;
+	line-height: 1em;
+	font-weight: 400;
+	margin: 0;
+	padding: 8px 40px 12px 15px;
+	position: absolute;
+	bottom: 15px;
 	left: 15px;
 	background-color: rgba(130, 22, 24, 0.6);
 }
@@ -616,7 +622,7 @@
 }
 
 .st-tips-author-info__name {
-	
+
 }
 
 .s-tips-subjects {
@@ -625,20 +631,20 @@
 
 .s-tips-subjects-heading {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #070808;
-    font-size: 55px;
-    line-height: 1em;
-    font-weight: 400;
+	color: #070808;
+	font-size: 55px;
+	line-height: 1em;
+	font-weight: 400;
 	margin: 0 0 1.25em;
 	padding: 0;
 }
 
 .s-tips-subjects-subtitle {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #070808;
-    font-size: 36px;
-    line-height: 1em;
-    font-weight: 400;
+	color: #070808;
+	font-size: 36px;
+	line-height: 1em;
+	font-weight: 400;
 	margin: 0 0 2em;
 	padding: 0;
 }
@@ -649,10 +655,10 @@
 
 .s-tips-content-group__h1 {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #070808;
-    font-size: 36px;
-    line-height: 1em;
-    font-weight: 400;
+	color: #070808;
+	font-size: 36px;
+	line-height: 1em;
+	font-weight: 400;
 	margin: 0 0 15px;
 	padding: 0;
 }
@@ -665,20 +671,20 @@
 
 .s-tips-content-group__title {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #070808;
-    font-size: 24px;
-    line-height: 1em;
-    font-weight: 700;
+	color: #070808;
+	font-size: 24px;
+	line-height: 1em;
+	font-weight: 700;
 	margin: 0 0 50px;
 	padding: 0;
 }
 
 .s-tips-content-group__subtitle {
 	font-family: "Garamond-Bold", "Garamond", serif;
-    color: #070808;
-    font-size: 18px;
-    line-height: 1em;
-    font-weight: 700;
+	color: #070808;
+	font-size: 18px;
+	line-height: 1em;
+	font-weight: 700;
 	margin: 0;
 	padding: 0;
 }
@@ -721,10 +727,10 @@
 
 .appr-text-section {
 	background-color: #f7ddeb;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 30px;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
 }
 
 .appr-text-section .pt-course-intro {
