@@ -1,6 +1,7 @@
 jq(document).ready(function(){
 	menu();
 	mobileMenu();
+	blog();
 });
 
 function menu(){
@@ -59,4 +60,19 @@ function mobileMenu(){
 			}
 		});	
 	}
+}
+
+function blog() {
+	var elem = jq(".js-blog-slider");
+	if (!elem.length) {
+		return false;
+	}
+
+	elem.slick({
+		arrows: false,
+		dots: false,
+		variableWidth: true,
+		autoplay: true,
+		autoplaySpeed: 2000
+	});
 }

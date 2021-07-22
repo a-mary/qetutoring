@@ -132,14 +132,17 @@
     .m-tutors-block2 .section-b1-video {
         display: block;
     }
+
     .m-tutors-block2__title {
         padding-top: 1px;
     }
-    .mt-img-banner--math> .wpac {
+
+    .mt-img-banner--math > .wpac {
         top: auto !important;
         bottom: 10px !important;
     }
-    .pt-img-banner--et-main> .wpac {
+
+    .pt-img-banner--et-main > .wpac {
         top: auto !important;
         bottom: 10px !important;
     }
@@ -155,6 +158,7 @@
     .mt-img-banner--math .pt-img-banner__title {
         bottom: 90px;
     }
+
     .pt-img-banner--science-page .pt-img-banner__title {
         bottom: 90px;
     }
@@ -165,10 +169,12 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .m-tutors-section {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .m-tutors-block2 .section-b1-video__description {
         padding-left: 0;
     }
@@ -189,9 +195,7 @@
     border-bottom: none;
 }
 
-
 /* Toronto page (05.01.2021) */
-
 .pt-course-new-section {
     margin-top: 32px;
 }
@@ -213,7 +217,7 @@
     padding: 21px 15px 26px;
 }
 
-.toronto-intro+ .m-success-stories {
+.toronto-intro + .m-success-stories {
     border-top: none;
 }
 
@@ -236,7 +240,6 @@
     min-width: 124px;
     padding: 0 8px 16px;
 }
-
 
 /*.blue-subjects__item.last {
     margin-left: auto;
@@ -364,6 +367,10 @@
     padding-top: 18px;
 }
 
+.toronto-intro-video__content.item--no-padding {
+    padding-top: 0;
+}
+
 .toronto-intro-video__title {
     font-size: 24px;
     line-height: 1.2em;
@@ -381,22 +388,28 @@
     .toronto-intro-main__wrapper {
         flex-direction: column;
     }
+
     .toronto-intro-main__text {
         margin-top: 24px;
     }
+
     .toronto-intro-video {
         flex-direction: column;
     }
+
     .toronto-intro-video__content {
         padding-left: 0;
         width: 100%;
     }
+
     .toronto-intro-videos {
         margin-top: 24px;
     }
+
     .toronto-intro-video__frame {
         width: 100%;
     }
+
     .blue-subjects__item.last {
         margin-left: 0;
     }
@@ -583,12 +596,13 @@
 .c-banner-white__text {
     display: inline-block;
     width: auto;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255,255,255,0.9);
     position: absolute;
     z-index: 2;
     bottom: 15px;
     left: 15px;
     padding: 10px 15px;
+
     font-family: "CalisMTBol", "Calisto MT", serif;
     font-size: 36px;
     line-height: 1.2em;
@@ -705,6 +719,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-top: 15px;
+
     font-family: 'Garamond-Bold', 'Garamond';
     font-weight: 400;
 }
@@ -800,6 +815,7 @@
     color: #231f20;
 }
 
+
 .t-dotted-list a:hover {
     text-decoration: underline;
     color: #231f20;
@@ -819,7 +835,7 @@
     background-color: #f0f3c0;
 }
 
-.toronto-yellow-bg2+ .pt-course-new-section {
+.toronto-yellow-bg2 + .pt-course-new-section {
     margin-top: 0;
 }
 
@@ -829,37 +845,46 @@
         margin-right: 0;
         margin-top: 32px;
     }
+
     .toronto-intro-main__wrapper--reversed {
         align-items: flex-start;
     }
+
     .book-section {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .book-section__main {
         flex-direction: column;
         width: 100%;
     }
+
     .book-section-wrapper {
         flex-wrap: wrap;
     }
+
     .book-section__right {
         margin-top: 30px;
         margin-left: 0;
     }
+
     .c-banner-white__text {
         font-size: 18px;
     }
+
     .t-in-action {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .t-simple-photos__item {
         width: 33.33%;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
     }
+
     .t-simple-photos__wrapper {
         margin-left: -5px;
         margin-right: -5px;
@@ -871,6 +896,12 @@
     bottom: auto;
     font-size: 60px;
     line-height: 1em;
+}
+
+.pt-img-banner--science-page.pt-img-banner--align-top-left .pt-img-banner__title h1 {
+    margin-top: 0 !important;
+    font-size: inherit;
+    line-height: inherit;
 }
 
 .pt-img-banner--overlay:after {
@@ -886,19 +917,12 @@
     opacity: 0.1;
 }
 
-.pt-img-banner--science-page.pt-img-banner--align-top-left .pt-img-banner__title h1 {
-    margin-top: 0 !important;
-    font-size: inherit;
-    line-height: inherit;
-}
-
-
 .pt-img-banner--overlay .pt-img-banner__title {
     z-index: 2;
     color: #000;
 }
 
-.book-section--small-paddings+ .m-tutors-section.section--bg-pink {
+.book-section--small-paddings + .m-tutors-section.section--bg-pink {
     margin-top: 30px;
 }
 

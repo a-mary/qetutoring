@@ -98,7 +98,6 @@
     text-decoration: none;
 }
 
-
 .find-section--theme2 {
     background-color: #f4f3cd;
     padding-left: 15px;
@@ -118,6 +117,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 24px 15px;
+
     background-color: #26387e;
     color: white;
 }
@@ -150,9 +150,8 @@
     margin-left: auto;
 }
 
-
 @media screen and (max-width: 767px) {
-	.find-section__header {
+    .find-section__header {
         flex-direction: column;
     }
 
@@ -169,11 +168,13 @@
         justify-content: flex-start;
         align-items: flex-start;
     }
+
     .find-cities-contact__phone {
         padding-left: 0;
         padding-right: 0;
         margin-top: 15px;
     }
+
     .find-cities-contact__email {
         margin-right: 0;
         margin-left: 0;
