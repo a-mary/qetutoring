@@ -952,3 +952,35 @@
     margin-left: -15px;
     margin-right: -15px;
 }
+
+@media screen and (min-width: 768px) {
+    .c-banner--mobile-bg {
+        background-image: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .c-banner--mobile-bg {
+        height: 240px;
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+
+    .c-banner--mobile-bg .c-banner-white__text {
+        right: 15px;
+    }
+
+    .c-banner--mobile-bg .c-banner-white__text > h3 {
+        font-size: 26px !important;
+        line-height: 1.2em;
+    }
+
+    .c-banner--mobile-bg .c-banner-white__text-subtitle h3 {
+        font-size: 18px !important;
+    }
+
+    .c-banner--mobile-bg img {
+        display: none;
+    }
+}

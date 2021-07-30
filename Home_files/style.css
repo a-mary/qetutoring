@@ -8424,6 +8424,8 @@ body {
   font-size: 76px;
   line-height: 1.2em;
   padding: 2px 48px 4px;
+  margin: 0;
+  font-weight: 400;
 }
 
 .m-help-sections {
@@ -8438,6 +8440,13 @@ body {
   line-height: 1em;
   margin: 0;
   padding: 20px 50px 25px;
+}
+
+.m-help-section__header h1,
+.m-help-section__header h2,
+.m-help-section__header h3,
+.m-help-section__header h4 {
+  font-weight: normal;
 }
 
 .m-help-section__content img {
@@ -8518,11 +8527,13 @@ body {
   padding: 10px 15px 10px;
 }
 
+.m-help-side-banner__text {
+  margin-bottom: 8px;
+}
+
 .m-help-side-banner__phone {
   position: relative;
-  margin-top: 18px;
-  padding-top: 9px;
-  padding-bottom: 10px;
+  margin-top: 5px;
 }
 
 .m-help-side-banner__phone a {
@@ -8535,7 +8546,13 @@ body {
   color: #002157;
 }
 
-.m-help-side-banner__phone:before {
+.m-help-side-banner__text-small {
+  font-size: 15px;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* .m-help-side-banner__phone:before {
   content: '';
   display: block;
   position: absolute;
@@ -8544,7 +8561,7 @@ body {
   right: -8px;
   height: 1px;
   background-color: #3c6e97;
-}
+} */
 
 .help-top-rated {
   background-color: #8ad6f0;
@@ -8556,6 +8573,7 @@ body {
 .help-top-rated__img {
   font-size: 0;
   line-height: 0;
+  position: relative;
 }
 
 .help-top-rated__img img {
@@ -9573,5 +9591,156 @@ body {
 
   .meet-banner__text {
     padding-right: 24px;
+  }
+}
+
+/* Math help page */
+.m-help-sections__layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.m-help-sections__layout-main {
+  width: 464px;
+  flex-shrink: 0;
+}
+
+.m-help-sections__layout-sidebar {
+  width: 236px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.m-help-form-box {
+  padding: 0 15px 23px;
+}
+
+.m-help-form-box:before {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #183D6F;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 14px;
+}
+
+.m-help-form-control {
+  height: 28px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 0 8px;
+  line-height: 26px;
+  width: 100%;
+  box-shadow: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+select.m-help-form-control {
+  background: #fff url("./img/triangle.png") no-repeat 98% center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 32px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.m-help-form-control:focus {
+  outline: none;
+}
+
+.m-help-form-group {
+  margin-bottom: 16px;
+}
+
+.m-help-form-group label {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 400;
+  padding: 0 0 0 8px;
+  margin: 0 0 2px 0;
+  display: block;
+}
+
+.m-help-submit {
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.m-help-submit-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 106px;
+  text-align: center;
+  background-color: #183d6f;
+  border-radius: 6px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.help-topics {
+  padding-top: 48px;
+}
+
+.help-topics-group {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 22px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+
+.help-topics-group__title {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0 0 0.75em;
+  padding: 0;
+  text-align: left;
+}
+
+.help-topics-item {
+  margin-bottom: 8px;
+}
+
+.help-topics-item a {
+  color: #010101;
+  text-decoration: none;
+}
+
+.help-topics-item a:hover {
+  color: #010101;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 479px) {
+  .help-topics {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .help-topics-group {
+    font-size: 20px;
+  }
+
+  .help-topics-item {
+    margin-bottom: 0.75em;
   }
 }
