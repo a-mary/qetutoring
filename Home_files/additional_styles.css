@@ -682,8 +682,10 @@
     padding: 0;
 }
 
-.book-section__title h2 {
+.book-section__title h2,
+.book-section__title h3 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .book-section__subtitle {
@@ -982,5 +984,10 @@
 
     .c-banner--mobile-bg img {
         display: none;
+    }
+
+    .book-section__title h2,
+    .book-section__title h3 {
+        margin-bottom: 1em;
     }
 }
