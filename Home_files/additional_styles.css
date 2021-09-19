@@ -212,12 +212,14 @@
     background-color: transparent;
 }
 
-.toronto-intro {
+.toronto-intro,
+.city-intro {
     background-color: #b6e4f8;
     padding: 21px 15px 26px;
 }
 
-.toronto-intro + .m-success-stories {
+.toronto-intro + .m-success-stories,
+.city-intro + .m-success-stories {
     border-top: none;
 }
 
@@ -271,7 +273,8 @@
     line-height: 1.2em;
 }
 
-.toronto-intro-main__title {
+.toronto-intro-main__title,
+.city-intro-main__title {
     font-family: "CalisMTBol", "Calisto MT", serif;
     font-size: 36px;
     line-height: 1.2em;
@@ -282,7 +285,8 @@
     text-align: center;
 }
 
-.toronto-intro-main__wrapper {
+.toronto-intro-main__wrapper,
+.city-intro-main__wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -290,27 +294,32 @@
     justify-content: flex-start;
 }
 
-.toronto-intro-main__enroll {
+.toronto-intro-main__enroll,
+.city-intro-main__enroll {
     width: 195px;
     margin-right: 24px;
     flex-shrink: 0;
 }
 
-.toronto-intro-main__wrapper--reversed {
+.toronto-intro-main__wrapper--reversed,
+.city-intro-main__wrapper--reversed {
     align-items: flex-end;
     margin-bottom: 48px;
 }
 
-.toronto-intro-main__wrapper--reversed .toronto-intro-main__enroll {
+.toronto-intro-main__wrapper--reversed .toronto-intro-main__enroll,
+.city-intro-main__wrapper--reversed .city-intro-main__enroll {
     margin-right: 0;
     margin-left: 24px;
 }
 
-.toronto-intro-main__wrapper--reversed .toronto-intro-main__text p {
+.toronto-intro-main__wrapper--reversed .toronto-intro-main__text p,
+.city-intro-main__wrapper--reversed .city-intro-main__text p {
     margin-bottom: 0;
 }
 
-.toronto-intro-main__text p:last-child {
+.toronto-intro-main__text p:last-child,
+.city-intro-main__text p:last-child {
     margin-bottom: 0;
 }
 
@@ -344,7 +353,8 @@
     text-decoration: none;
 }
 
-.toronto-intro-video {
+.toronto-intro-video,
+.city-intro-video {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -353,25 +363,30 @@
     margin-bottom: 32px;
 }
 
-.toronto-intro-videos {
+.toronto-intro-videos,
+.city-intro-videos {
     padding-bottom: 10px;
 }
 
-.toronto-intro-video__frame {
+.toronto-intro-video__frame,
+.city-intro-video__frame {
     width: 288px;
     flex-shrink: 0;
 }
 
-.toronto-intro-video__content {
+.toronto-intro-video__content,
+.city-intro-video__content {
     padding-left: 30px;
     padding-top: 18px;
 }
 
-.toronto-intro-video__content.item--no-padding {
+.toronto-intro-video__content.item--no-padding,
+.city-intro-video__content.item--no-padding {
     padding-top: 0;
 }
 
-.toronto-intro-video__title {
+.toronto-intro-video__title,
+.city-intro-video__title {
     font-size: 24px;
     line-height: 1.2em;
     color: #010101;
@@ -385,28 +400,34 @@
 }
 
 @media screen and (max-width: 767px) {
-    .toronto-intro-main__wrapper {
+    .toronto-intro-main__wrapper,
+    .city-intro-main__wrapper {
         flex-direction: column;
     }
 
-    .toronto-intro-main__text {
+    .toronto-intro-main__text,
+    .city-intro-main__text {
         margin-top: 24px;
     }
 
-    .toronto-intro-video {
+    .toronto-intro-video,
+    .city-intro-video {
         flex-direction: column;
     }
 
-    .toronto-intro-video__content {
+    .toronto-intro-video__content,
+    .city-intro-video__content {
         padding-left: 0;
         width: 100%;
     }
 
-    .toronto-intro-videos {
+    .toronto-intro-videos,
+    .city-intro-videos {
         margin-top: 24px;
     }
 
-    .toronto-intro-video__frame {
+    .toronto-intro-video__frame,
+    .city-intro-video__frame {
         width: 100%;
     }
 
@@ -427,11 +448,13 @@
     line-height: 1.1em;
 }
 
-.toronto-intro-main__title.align-left {
+.toronto-intro-main__title.align-left,
+.city-intro-main__title.align-left {
     text-align: left;
 }
 
-.toronto-intro-main__text-heading {
+.toronto-intro-main__text-heading,
+.city-intro-main__text-heading {
     font-family: "CalisMTBol", "Calisto MT", serif;
     font-size: 26px;
     line-height: 1.2em;
@@ -441,7 +464,8 @@
     padding: 0;
 }
 
-.toronto-intro__bottom-text {
+.toronto-intro__bottom-text,
+.city-intro__bottom-text {
     margin-top: 40px;
 }
 
@@ -453,21 +477,25 @@
     margin-top: 0;
 }
 
-.toronto-intro-main__text-heading span {
+.toronto-intro-main__text-heading span,
+.city-intro-main__text-heading span {
     color: #f16c8a;
 }
 
-.toronto-intro--english {
+.toronto-intro--english,
+.city-intro--english {
     background-color: #f4f3cc;
     padding-bottom: 0;
     overflow: hidden;
 }
 
-.toronto-intro--english .enroll-white__title {
+.toronto-intro--english .enroll-white__title,
+.city-intro--english .enroll-white__title {
     margin-bottom: 24px;
 }
 
-.toronto-intro--english .toronto-intro-main__text-heading {
+.toronto-intro--english .toronto-intro-main__text-heading,
+.city-intro--english .city-intro-main__text-heading {
     padding-left: 1.5em;
     padding-right: 1em;
 }
@@ -570,12 +598,14 @@
 }
 
 @media screen and (max-width: 767px) {
-    .toronto-intro--english .toronto-intro-main__text-heading {
+    .toronto-intro--english .toronto-intro-main__text-heading,
+    .city-intro--english .city-intro-main__text-heading {
         padding-left: 0;
     }
 }
 
-.toronto-intro-main__heading-underline {
+.toronto-intro-main__heading-underline,
+.city-intro-main__heading-underline {
     font-family: "CalisMTBol", "Calisto MT", serif;
     font-size: 24px;
     line-height: 1.2em;
@@ -612,7 +642,8 @@
     text-align: left;
 }
 
-.t-pink-section-toronto {
+.t-pink-section-toronto,
+.t-pink-section {
     background-color: #f7ddeb;
     padding-top: 32px;
     padding-left: 15px;
@@ -823,7 +854,8 @@
     color: #231f20;
 }
 
-.toronto-tutors-heading {
+.toronto-tutors-heading,
+.city-tutors-heading {
     font-family: "CalisMTBol", "Calisto MT", serif;
     font-size: 36px;
     line-height: 1.2em;
@@ -833,22 +865,26 @@
     padding: 0;
 }
 
-.toronto-yellow-bg2 {
+.toronto-yellow-bg2,
+.city-yellow-bg2 {
     background-color: #f0f3c0;
 }
 
-.toronto-yellow-bg2 + .pt-course-new-section {
+.toronto-yellow-bg2 + .pt-course-new-section,
+.city-yellow-bg2 + .pt-course-new-section {
     margin-top: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .toronto-intro-main__wrapper--reversed .toronto-intro-main__enroll {
+    .toronto-intro-main__wrapper--reversed .toronto-intro-main__enroll,
+    .city-intro-main__wrapper--reversed .city-intro-main__enroll {
         margin-left: 0;
         margin-right: 0;
         margin-top: 32px;
     }
 
-    .toronto-intro-main__wrapper--reversed {
+    .toronto-intro-main__wrapper--reversed,
+    .city-intro-main__wrapper--reversed {
         align-items: flex-start;
     }
 
