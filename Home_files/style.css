@@ -10330,3 +10330,488 @@ select.m-help-form-control {
 .eng-offer {
   padding: 0 15px 30px;
 }
+
+
+.chemistry-marks-banner {
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+}
+
+.chemistry-marks-banner img {
+  display: none;
+}
+
+.chemistry-marks-banner__text {
+  display: inline-block;
+  width: auto;
+  background-color: rgba(247,243,168,0.8);
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+  right: 30px;
+  padding: 1em 15px;
+
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .chemistry-marks-banner {
+    background: none !important;
+  }
+
+  .chemistry-marks-banner img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chemistry-marks-banner {
+    height: 240px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .chemistry-marks-banner__text {
+    right: 15px;
+    font-size: 26px;
+  }
+}
+
+.chemistry-mark-section {
+  background-color: #f6f4a8;
+  padding: 40px 25px 13px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: normal;
+  overflow: hidden;
+}
+
+.chemistry-mark-section--blue {
+  background-color: #afe0eb;
+}
+
+.chemistry-mark-section p {
+  margin-bottom: 28px;
+}
+
+.chemistry-mark-section-title {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 38px;
+}
+
+.chemistry-mark-section-title__text {
+  display: inline-block;
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+.chemistry-mark-section-title img {
+  flex-shrink: 0;
+  margin-right: 25px;
+}
+
+.chemistry-mark-section__title-sm {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.chemistry-mark-tips-elem__header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  color: #010101;
+  margin-bottom: 8px;
+}
+
+.chemistry-mark-tips-elem__header-l {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 42px;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin-right: 24px;
+}
+
+.chemistry-mark-tips-elem__header-l span {
+  font-size: 62px;
+  position: relative;
+  top: 4px;
+}
+
+.chemistry-mark-tips-elem__header-r {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+.chemistry-mark-tips-elem {
+  margin-top: 16px;
+}
+
+.chemistry-mark-tips-elem:first-child {
+  margin-top: 0;
+}
+
+.chemistry-mark-tips {
+  margin-top: 38px;
+}
+
+.approach-content-type2 {
+  padding: 0 25px 35px;
+}
+
+.approach-content-type2__title {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 36px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0 0 1.12em;
+  text-align: left;
+}
+
+.approach-content-type2__subtitle {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 36px;
+  line-height: 1.2em;
+  color: #010101;
+  font-weight: 700;
+  margin: 0 0 1em;
+  text-align: left;
+  padding: 0 0 0 60px;
+}
+
+.list-green-type1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.list-green-type1 li {
+  position: relative;
+  padding: 0 0 0 60px;
+  margin: 48px 0 0 0;
+}
+
+.list-green-type1 li:before {
+  content: '';
+  display: block;
+  width: 33px;
+  height: 31px;
+  background: transparent url("./img/checkmark-green.png") no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.list-green-type1 li:first-child {
+  margin-top: 0;
+}
+
+.list-green-type1 h2,
+.list-green-type1 h3,
+.list-green-type1 h4 {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  font-weight: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .approach-content-type2__title {
+    font-size: 26px;
+  }
+
+  .approach-content-type2__subtitle {
+    font-size: 26px;
+  }
+
+  .approach-content-type2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.learning-s3-section2-video {
+  padding-top: 26px;
+}
+
+.learning-s3-section2-video .o-tutor-card__name {
+  font-size: 26px;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+.learning-s3-section2-video .o-tutor-card__subtitle {
+  font-weight: bold;
+}
+
+.learning-s3-section2-video .o-tutor-card__main {
+  font-family: serif;
+}
+
+.learning-s3-section2-video .o-tutor-card__text {
+  font-size: 16px;
+}
+
+
+
+.chemistry-top-banner {
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+}
+
+.chemistry-top-banner img {
+  display: none;
+}
+
+.chemistry-top-banner__text {
+  display: inline-block;
+  width: 100%;
+  max-width: 390px;
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+  left: 30px;
+  padding: 10px 15px;
+
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 48px;
+  line-height: 1.2em;
+  color: #2A378D;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .chemistry-top-banner {
+    background: none !important;
+  }
+
+  .chemistry-top-banner img {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chemistry-top-banner {
+    height: 240px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+  .chemistry-top-banner__text {
+    left: 15px;
+    right: 15px;
+    width: auto;
+    font-size: 26px;
+  }
+}
+
+.learning-s3-intro {
+  background-color: #a3dce9;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: normal;
+  padding: 20px 20px 0;
+  overflow: hidden;
+}
+
+.learning-s3-intro__line1 {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: normal;
+  margin-bottom: 1.875em;
+}
+
+.learning-s3-intro__title {
+  font-size: 30px;
+  line-height: 1.2em;
+  font-family: 'Century', serif;
+  font-weight: normal;
+  margin: 0 0 1.4em;
+}
+
+.learning-s3-intro p {
+  margin-bottom: 28px;
+}
+
+.learning-s3-section2 {
+  background-color: #a3dce9;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.learning-s3-section2-header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.learning-s3-section2-header__text {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: 'Century', serif;
+  margin: 0;
+  display: block;
+}
+
+.learning-s3-section2-header img {
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+.learning-s3-section2__intro {
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: normal;
+}
+
+.learning-s3-section2 .list-green-type1 {
+  padding-left: 24px;
+}
+
+.learning-s3-section2 .list-green-type1 li {
+  margin-top: 20px;
+}
+
+.learning-s3-section2 .list-green-type1 li:first-child {
+  margin-top: 0;
+}
+
+.learning-s3-subject__header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.learning-s3-subject__header-text {
+  display: block;
+  font-size: 30px;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: 'Century', serif;
+  margin: 0;
+}
+
+.learning-s3-subject__header img {
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+.learning-s3-subjects {
+  padding-left: 24px;
+  margin-top: 45px;
+  padding-bottom: 27px;
+}
+
+.learning-s3-subject {
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.learning-s3-subject:first-child {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .learning-s3-section2 .list-green-type1 {
+    padding-left: 0;
+  }
+
+  .learning-s3-subjects {
+    padding-left: 0;
+  }
+
+  .chemistry-mark-section-title__text {
+    font-size: 24px;
+  }
+
+  .chemistry-mark-section__title-sm {
+    font-size: 20px;
+  }
+
+  .chemistry-mark-tips-elem__header-l {
+    font-size: 30px;
+  }
+
+  .chemistry-mark-tips-elem__header-l span {
+    font-size: 48px;
+  }
+
+  .learning-s3-subject__header-text {
+    font-size: 24px;
+  }
+
+  .learning-s3-intro__title {
+    font-size: 26px;
+  }
+}
+
+/*Physics page*/
+
+.physics-check-list {
+  list-style: none;
+  padding: 0 0 0 24px;
+  margin: 10px 0 30px 0;
+}
+
+.physics-check-list li {
+  background: url('img/physics/physics-tutoring-51.svg') no-repeat left top;
+  background-size: 40px;
+  min-height: 40px;
+  padding-left: 55px;
+  padding-top: 2px;
+  margin-bottom: 16px;
+}
+
+.physics-check-list li h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .physics-check-list {
+    padding-left: 0;
+  }
+}
