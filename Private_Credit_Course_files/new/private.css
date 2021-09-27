@@ -639,6 +639,13 @@
 	padding: 0;
 }
 
+.s-tips-subjects-heading--g-font {
+	font-family: "CalisMTBol", "Calisto MT", serif;
+	font-size: 36px;
+	line-height: 1.2em;
+	font-weight: 700;
+}
+
 .s-tips-subjects-subtitle {
 	font-family: "Garamond-Bold", "Garamond", serif;
 	color: #070808;
@@ -647,6 +654,11 @@
 	font-weight: 400;
 	margin: 0 0 2em;
 	padding: 0;
+}
+
+.s-tips-subjects-heading--g-font + .s-tips-subjects-subtitle {
+	font-family: "CalisMTBol", "Calisto MT", serif;
+	font-size: 24px;
 }
 
 .s-tips-content-group {
@@ -720,6 +732,10 @@
 		font-size: 45px;
 	}
 
+	.s-tips-subjects-heading--g-font {
+		font-size: 30px;
+	}
+
 	.s-tips-content-group {
 		margin-top: 64px;
 	}
@@ -735,4 +751,30 @@
 
 .appr-text-section .pt-course-intro {
 	margin-bottom: 0;
+}
+
+.s-tips-subjects--citypage {
+	padding-top: 15px;
+}
+
+.s-tips-subjects--citypage .s-tips-content-group:first-child {
+	margin-top: 0;
+}
+
+.p-reviews-bottom-text-bold {
+	font-family: "CalisMTBol", "Calisto MT", serif;
+	font-size: 20px;
+	line-height: 1.2em;
+	color: #010101;
+	font-weight: 700;
+	margin: 1.5em 0 0;
+	padding: 0;
+}
+
+.p-reviews-bottom-text-bold h1,
+.p-reviews-bottom-text-bold h2,
+.p-reviews-bottom-text-bold h3,
+.p-reviews-bottom-text-bold h4 {
+	font-size: 20px;
+	margin: 1.5em 0 0;
 }
