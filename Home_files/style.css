@@ -10823,3 +10823,40 @@ select.m-help-form-control {
     height: auto;
   }
 }
+
+
+.diff-cities-section {
+  background-color: #f9f4ab;
+  padding: 34px 40px 34px;
+}
+
+.diff-cities-section__title {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.125em;
+  color: #010101;
+  margin: 0 0 0.5277777777777778em;
+  padding: 0;
+}
+
+.diff-cities-section__links {
+  font-size: 0;
+  line-height: 0;
+}
+
+.diff-cities-section__links a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1em;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 0.5em;
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+.diff-cities-section__links a:hover {
+  color: #000;
+  text-decoration: underline;
+}
