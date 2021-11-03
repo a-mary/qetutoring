@@ -4253,6 +4253,12 @@ body {
   padding: 0;
 }
 
+.pt-course-info-group__title h2,
+.pt-course-info-group__title h3,
+.pt-course-info-group__title h4 {
+  line-height: 1.2em;
+}
+
 .pt-course-info-group__content {
   /*font-family: "HelveticaNeue", "Helvetica Neue", "Arial", sans-serif;
   font-size: 14px;
@@ -10859,4 +10865,50 @@ select.m-help-form-control {
 .diff-cities-section__links a:hover {
   color: #000;
   text-decoration: underline;
+}
+
+.course-info-green {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #BCDB8E;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.page--yellow .course-info-green .pt-course-intro {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.course-info-green .pt-course-info-group {
+  padding-left: 40px;
+  padding-right: 15px;
+}
+
+.course-info-green .t-dotted-list {
+  margin-top: 30px;
+}
+
+.course-info-green .subject-intro__list {
+  margin-top: 40px;
+}
+
+.course-info-green--hr {
+  height: 1px;
+  background: #000;
+  margin: 40px 0;
+}
+
+.tutors-on-blue-bg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #CDE4F6;
+}
+
+.tutors-on-blue-bg .o-tutor-card__name {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.2em;
 }
