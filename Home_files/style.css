@@ -11341,3 +11341,141 @@ select.m-help-form-control {
 .c-red-section--no-right-paddings-on-title .c-red-section__subheading {
   padding-right: 0;
 }
+
+.pc-study-tips__subtitle-sm {
+  font-size: 30px;
+  line-height: 1.2em;
+  padding-bottom: 0.5em;
+}
+
+/* Alumni section */
+.success-alumni-section {
+  padding: 5px 15px 30px 15px;
+  background-color: #a6d4f6;
+}
+
+.success-alumni-section__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.success-alumni-wrapper {
+  padding: 20px 0 26px 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.success-alumni__left {
+  width: 55%;
+}
+
+.success-alumni__left .alumni-img {
+  width: 46%;
+}
+
+.success-alumni__left .alumni-info-name {
+  font-size: 22px;
+}
+
+.success-alumni__left .alumni-info-red {
+  font-size: 19px;
+  line-height: 1.1em;
+  margin-top: 4px;
+}
+
+.success-alumni__left .alumni:nth-child(2) {
+  padding-left: 10%;
+  padding-top: 5px;
+}
+
+.success-alumni__left .alumni:nth-child(2) .alumni-img{
+  max-width: 32%;
+}
+
+.success-alumni__right {
+  width: 45%;
+  border-left: 1px solid #000;
+  padding-left: 17px;
+}
+
+.success-alumni__right .alumni-img {
+  width: 24%;
+}
+
+.success-alumni__right .alumni-info-red {
+  font-size: 16px;
+}
+
+.success-alumni__right .alumni:nth-of-type(2) {
+  padding: 8px 0;
+}
+
+.success-alumni__right .alumni-info div {
+  margin-top: 3px;
+}
+
+.success-alumni__right .alumni-info {
+  font-size: 15px;
+  width: 69%;
+}
+
+.success-alumni__right .alumni-info-name {
+  font-size: 20px;
+  margin-top: 0;
+}
+.success-alumni__right .alumni-img {
+  max-width: 74px;
+}
+
+.alumni {
+  display: flex;
+  flex-direction: row;
+}
+
+.alumni-img {
+  padding: 6px 15px 15px 0;
+}
+
+.alumni-info-red {
+  font-weight: bold;
+  color: #E71181;
+}
+
+.alumni-info-name {
+  margin-bottom: 0.1em;
+  font-weight: bold!important;
+}
+
+.success-alumni__left .alumni-info div {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 734px) {
+  .success-alumni-wrapper {
+    flex-direction: column;
+  }
+
+  .success-alumni__left, .success-alumni__right {
+    width: 100%;
+  }
+
+  .success-alumni__right {
+    border-left: none;
+    border-top: 1px solid  #000;
+    margin-top: 12px;
+    padding-top: 22px;
+    padding-left: 0;
+  }
+
+  .success-alumni__left .alumni:nth-child(2) {
+    padding-left: 0;
+  }
+
+  .success-alumni__left .alumni-img {
+    width: 85px;
+  }
+
+  .success-alumni__left .alumni:nth-child(2) .alumni-img {
+    max-width: none;
+  }
+}
