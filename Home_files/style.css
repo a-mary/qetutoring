@@ -4246,7 +4246,8 @@ body {
 .pt-course-info-group__title {
   font-family: "CalisMTBol", "Calisto MT", serif;
   font-size: 24px;
-  line-height: 29px;
+  /*line-height: 29px;*/
+  line-height: 1.2em;
   font-weight: bold;
   color: #010101;
   margin: 0 0 16px;
@@ -4295,10 +4296,10 @@ body {
 }
 
 .pt-course-info-bottom-group span {
-  font-size: 24px;
+  /* font-size: 24px;
   line-height: 29px;
   font-family: "CalisMTBol", "Calisto MT", serif;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 .pt-course-info--tips .pt-course-info__h3 {
@@ -7520,7 +7521,7 @@ body {
   overflow: hidden;
 }
 
-.toronto-intro-main .cta-blue ,
+.toronto-intro-main .cta-blue,
 .city-intro-main .cta-blue {
   margin-top: 12px;
   margin-bottom: 42px;
@@ -11223,7 +11224,7 @@ select.m-help-form-control {
   font-family: "CalisMTBol", "Calisto MT", serif;
   font-size: 20px;
   line-height: 1.2em;
-  font-weight: bold;
+  font-weight: 400;
   color: #010101;
   margin: 0 0 24px;
   padding: 0;
@@ -11478,4 +11479,11 @@ select.m-help-form-control {
   .success-alumni__left .alumni:nth-child(2) .alumni-img {
     max-width: none;
   }
+}
+
+.s-blog-banner--custom1 .s-blog-banner__text.s-blog-banner__text--no-br {
+  width: auto;
+  max-width: 300px;
+  margin-left: 15px;
+  padding-right: 15px;
 }
