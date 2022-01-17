@@ -6215,7 +6215,7 @@ body {
 /* contacts bottom section */
 .c-nav-section {
   /*background: transparent url("/Home_files/img/contact-section/bg.jpg") no-repeat top center;*/
-  background: transparent url("img/contact-section/bg.jpg") no-repeat top center;
+  /*background: transparent url("img/contact-section/bg.jpg") no-repeat top center;*/
   background-size: cover;
   color: #fff;
   font-size: 16px;
