@@ -11230,6 +11230,15 @@ select.m-help-form-control {
   padding: 0;
 }
 
+.m-cd-group__title-xs {
+  margin: 0 0 24px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #010101;
+}
+
 .m-cd-banner__textbox {
   display: block;
   width: 295px;
@@ -11486,6 +11495,37 @@ select.m-help-form-control {
   max-width: 300px;
   margin-left: 15px;
   padding-right: 15px;
+}
+.ap-calculus-topics-group--no-counters .ap-calculus-topics__title:before {
+  content: unset;
+  display: none;
+}
+
+.ap-calculus-topics-group--no-counters .ap-calculus-topics__list li:before {
+  content: unset;
+  display: none;
+}
+
+/* french */
+.banner-with-bottom-text {
+  font-size: 0;
+  line-height: 0;
+}
+
+.banner-with-bottom-text__content {
+  background-color: #f59a84;
+  padding: 24px 32px 15px;
+}
+
+.banner-with-bottom-text__title {
+  font-family: "CalisMTBol", "Calisto MT", serif;
+  font-size: 36px;
+  line-height: 1.2em;
+  color: #000;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  text-align: left;
 }
 
 /* Fee section */
