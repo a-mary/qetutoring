@@ -4246,7 +4246,7 @@ body {
 .pt-course-info-group__title {
   font-family: "CalisMTBol", "Calisto MT", serif;
   font-size: 24px;
-  /*line-height: 29px;*/
+  /* line-height: 29px; */
   line-height: 1.2em;
   font-weight: bold;
   color: #010101;
@@ -8467,6 +8467,7 @@ body {
   line-height: 1.1em;
 }
 
+
 .m-help-section__content img {
   vertical-align: middle;
 }
@@ -10339,7 +10340,6 @@ select.m-help-form-control {
   padding: 0 15px 30px;
 }
 
-
 .chemistry-marks-banner {
   position: relative;
   font-size: 0;
@@ -10621,6 +10621,15 @@ select.m-help-form-control {
   text-align: left;
 }
 
+.chemistry-top-banner--sm .chemistry-top-banner__text {
+  font-size: 36px;
+  top: 30px;
+  bottom: auto;
+  color: #010101;
+  width: auto;
+}
+
+
 @media screen and (min-width: 768px) {
   .chemistry-top-banner {
     background: none !important;
@@ -10832,7 +10841,6 @@ select.m-help-form-control {
   }
 }
 
-
 .diff-cities-section {
   background-color: #f9f4ab;
   padding: 34px 40px 34px;
@@ -10914,7 +10922,6 @@ select.m-help-form-control {
   font-size: 20px;
   line-height: 1.2em;
 }
-
 
 .meet-banner--ap-physics .chemistry-top-banner__text {
   font-size: 36px;
@@ -11490,12 +11497,14 @@ select.m-help-form-control {
   }
 }
 
+
 .s-blog-banner--custom1 .s-blog-banner__text.s-blog-banner__text--no-br {
   width: auto;
   max-width: 300px;
   margin-left: 15px;
   padding-right: 15px;
 }
+
 .ap-calculus-topics-group--no-counters .ap-calculus-topics__title:before {
   content: unset;
   display: none;
@@ -11656,4 +11665,49 @@ select.m-help-form-control {
 
 .pt-course-info-onecolumn-calculus .pt-course-info-group {
   margin-top: 29px!important;
+}
+
+.learning-s3-section2-h2-title {
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: 'Century', serif;
+  margin: 0 0 1em;
+  display: block;
+}
+
+.learning-s3-section2 .t-dotted-list {
+  font-size: 16px;
+}
+
+.learning-s3-section2 .t-dotted-list li {
+  margin-top: 10px;
+}
+
+.learning-s3-section2 .t-dotted-list li:first-child {
+  margin-top: 0;
+}
+
+.key-topics-group {
+  margin-top: 40px;
+}
+
+.key-topics {
+  padding-bottom: 20px;
+}
+
+.cp-subjects--ib {
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 24px;
+}
+
+.cp-subjects--ib .cp-subjects__col1 {
+  border-right: none;
+}
+
+.cp-subjects-wrapper {
+  padding-top: 8px;
+  padding-bottom: 24px;
 }
