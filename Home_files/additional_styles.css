@@ -2,7 +2,7 @@
     border-style: solid;
     border-color: #000;
     border-width: 1px 0px 1px;
-    padding: 30px 0 20px;
+    padding: 30px 30px 20px;
 }
 
 .m-success-stories--blue {
@@ -215,7 +215,7 @@
 .toronto-intro,
 .city-intro {
     background-color: #b6e4f8;
-    padding: 21px 15px 26px;
+    padding: 21px 30px 26px;
 }
 
 .toronto-intro + .m-success-stories,
@@ -541,8 +541,8 @@
     padding-top: 21px;
     padding-bottom: 0;
     background-color: #f4f3cc;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-bottom: 0;
     border-bottom: none;
 }
@@ -552,8 +552,8 @@
 }
 
 .m-yellow-bg {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #f4f3cc;
     margin-top: 0;
 }
@@ -630,7 +630,7 @@
     position: absolute;
     z-index: 2;
     bottom: 15px;
-    left: 15px;
+    left: 30px;
     padding: 10px 15px;
 
     font-family: "CalisMTBol", "Calisto MT", serif;
@@ -645,10 +645,7 @@
 .t-pink-section-toronto,
 .t-pink-section {
     background-color: #f7ddeb;
-    padding-top: 32px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 20px;
+    padding: 32px 30px 20px;
 }
 
 .pt-img-banner--align-left.mt-img-banner--math .pt-img-banner__title {
@@ -678,8 +675,8 @@
 }
 
 .t-in-action {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-bottom: 15px;
 }
 
@@ -955,6 +952,19 @@
     opacity: 0.1;
 }
 
+.pt-img-banner--overlay-light:after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ccc;
+    opacity: 0.3;
+}
+
 .pt-img-banner--overlay .pt-img-banner__title {
     z-index: 2;
     color: #000;
@@ -1025,5 +1035,10 @@
     .book-section__title h2,
     .book-section__title h3 {
         margin-bottom: 1em;
+    }
+
+    .pt-img-banner--overlay-light:after {
+        content: unset;
+        display: none;
     }
 }

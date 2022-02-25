@@ -498,8 +498,8 @@ svg:not(:root) {
 }
 
 .rating-button-wrap.rating-button-wrap--align-right {
-    left: auto;
-    right: 10px;
+    left: 10px;
+    right: auto;
 }
 
 .wp-gr .wp-google-badge_left-fixed.is_stuck {
