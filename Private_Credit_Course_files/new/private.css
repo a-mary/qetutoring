@@ -512,12 +512,12 @@
 /* Study Tips */
 .study-tips-new {
 	background-color: #aedbf6;
-	margin: 0 -15px;
+	margin: 0;
 	padding: 0 0 40px;
 }
 
 .st-tips-authors {
-	padding: 0 15px;
+	padding: 0 30px;
 }
 
 .s-tips-subjects {
@@ -545,7 +545,7 @@
 	padding: 8px 40px 12px 15px;
 	position: absolute;
 	bottom: 15px;
-	left: 15px;
+	left: 30px;
 	background-color: rgba(130, 22, 24, 0.6);
 }
 
