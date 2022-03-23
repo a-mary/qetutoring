@@ -464,13 +464,13 @@
             
             <p>Memorizing steps and equations doesn’t work in physics. All questions in physics are application based, they are word problems. This means that your teacher can change the question slightly and your entire solution - the equation you use, the givens, the approach, will be all different.  Understanding the concepts and apply them, instead of memorizing equations, is the key to doing well in physics.</p>
 
-            <p style="font-size: 16px;">Benefit fro our lessons based physics tutoring in Mississauga and Oakville!</p>
+            <p style="font-size: 16px;">Benefit from our lessons based physics tutoring in Mississauga and Oakville!</p>
 
           </div>
 
           <div class="learning-s3-section2" style="background-color: #b6e4f8;">
             <div class="learning-s3-section2-header"><img src="Home_files/img/chemistry/ottawa/chemistry-tutor-in-ottawa-4.jpg" alt="chemistry tutor in ottawa 4"><h2 class="learning-s3-section2-header__text">How can our Chemistry and Physics tutor help you?</h2></div>
-            <h3 style="font-size: 16px; line-height: 1.2em; font-weight: 400;">Chemistry  and physcis tutoring Mississauga and Oakville</h3>
+            <h3 style="font-size: 16px; line-height: 1.2em; font-weight: 400;">Chemistry  and physics tutoring Mississauga and Oakville</h3>
 
             <div class="learning-s3-section2__intro">All QEA chemistry tutoring is one on one private.  We teach the full lesson and review what you learned during the week.  In this way, you won’t miss anything.</div>
 
@@ -720,7 +720,7 @@
                             <div class="alumni-info">
                                 <div class="alumni-info-name">Mark J.</div>
                                 <div class="alumni-info-red">Investment banking analyst</div>
-                                <div>Conaccord Genuity</div>
+                                <div>Canaccord Genuity</div>
                                 <div>Graduate of Western Ivey</div>
                                 <div style="margin-top: 8px;">QEA student alumni</div>
                             </div>
@@ -948,7 +948,7 @@
 
 					<div class="pt-course-intro pt-course-intro--with-image" style="margin-bottom: 36px;">
                         <div class="pt-course-intro__text">
-                            <div class="pt-course-info-group__title"><h3 style="font-size:32px;margin: 0;">QE Chemistry and Physics Tutors Missisauga and Oakville</h3></div>
+                            <div class="pt-course-info-group__title"><h3 style="font-size:32px;margin: 0;">QE Chemistry and Physics Tutors Mississauga and Oakville</h3></div>
                             <p>Queen Elizabeth Academy’s private tutoring programs offer one on one, personalized lessons that cover the concepts with step by step explanations on homework problems. Get in touch with our expert tutors in Ottawa today.</p>
                         </div>
 
@@ -2900,6 +2900,36 @@
 			  });
 			  
 				}
+
+                if ($(".js-faq-tab-link").length) {
+                    $(".js-faq-tab-link").click(function(e){
+                        e.preventDefault();
+                        var panel = $(this).next();
+
+                        if ($(this).hasClass("active")) {
+                            // collapse
+                            panel.stop(true).slideUp();
+                            $(this).removeClass("active");
+                        } else {
+                            // expand
+                            panel.stop(true).slideDown();
+                            $(this).addClass("active");
+                        }
+                    });
+                }
+
+                // Scroll to section
+                $(document).on("click", ".js-scroll-to", function(e){
+                    e.preventDefault();
+
+                    var target_id = $(this).attr("href");
+                    if ($(target_id).length) {
+                        $('html, body').animate({
+                            scrollTop: $(target_id).offset().top
+                        }, 1000);
+                    }
+
+                });
 
 
         $(".js-red-tab-link").click(function(e){
