@@ -115,6 +115,7 @@
 <link href="../Home_files/style.css?v=100120222236" rel="stylesheet" media="screen,print"/>
 <link href="../Home_files/additional_styles.css?v=270720210951" rel="stylesheet" media="screen,print"/>
 <link href="../Home_files/cities.css?v=10" rel="stylesheet" media="screen,print"/>
+<link href="../Home_files/LoadYouTubeVideos.css" rel="stylesheet" media="screen,print"/>
 
 <link rel="stylesheet" type="text/css" href="../slick/slick.css"/>
 <link href="../Private_Credit_Course_files/new/private.css?v=16" rel="stylesheet" media="screen,print"/>
@@ -131,6 +132,7 @@
 <script type="text/javascript" src="../Scripts/Widgets/Reviews/star-rating.min.js"></script>
 <script type="text/javascript" src="../slick/slick.min.js"></script>
 <script src="../Scripts/jquery.sticky-kit.min.js"></script>
+<script src="../Scripts/LoadYouTubeVideos.js"></script>
 
 <script>
     var jq = $.noConflict();
@@ -432,7 +434,7 @@
                         <div class="city-intro-video__frame">
                             <div class="com-apple-iweb-widget-YouTube" id="widget401" style="height: 240px; width: 100%;">
                                 <div class="youtube_widget" id="widget401-youTube">
-                                    <iframe width="100%" height="240" frameBorder="0" src="https://www.youtube.com/embed/FCt18yFUjiI"></iframe>
+                                    <div class="youtube" data-embed="FCt18yFUjiI" data-width="100%" data-height="240"></div>
                                 </div>
                             </div>
                         </div>
@@ -448,7 +450,7 @@
                         <div class="city-intro-video__frame">
                             <div class="com-apple-iweb-widget-YouTube" id="widget402" style="height: 240px; width: 100%;">
                                 <div class="youtube_widget" id="widget402-youTube">
-                                    <iframe width="100%" height="240" frameBorder="0" src="https://www.youtube.com/embed/FCpThB8p0yQ"></iframe>
+                                    <div class="youtube" data-embed="FCpThB8p0yQ" data-width="100%" data-height="240"></div>
                                 </div>
                             </div>
                         </div>
@@ -686,7 +688,7 @@
                                 <div class="success-story2__video">
                                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" style="height: 280px; opacity: 1.00; position: relative; width: 335px; z-index: 1; ">
                                         <div class="youtube_widget" >
-                                            <iframe width="335" height="280" frameBorder="0" src="https://www.youtube.com/embed/sPdIANwlUM8"></iframe>
+                                            <div class="youtube" data-embed="sPdIANwlUM8" data-width="355" data-height="280"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -714,7 +716,7 @@
                                             <div class="section-b1-video__iframe">
                                                 <div class="com-apple-iweb-widget-YouTube" style="height: 200px; width: 172px;">
                                                     <div class="youtube_widget">
-                                                        <iframe width="172" height="200" frameBorder="0" src="https://www.youtube.com/embed/S0p7PQB4T0A"></iframe>
+                                                        <div class="youtube" data-embed="S0p7PQB4T0A" data-width="172" data-height="200"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -726,7 +728,7 @@
                                             <div class="section-b1-video__iframe">
                                                 <div class="com-apple-iweb-widget-YouTube" style="height: 200px; width: 172px;">
                                                     <div class="youtube_widget">
-                                                        <iframe width="172" height="200" frameBorder="0" src="https://www.youtube.com/embed/QZrgj0GjrjM"></iframe>
+                                                        <div class="youtube" data-embed="QZrgj0GjrjM" data-width="172" data-height="200"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -840,7 +842,7 @@
                                 <div class="o-tutor-card__video">
                                     <div class="com-apple-iweb-widget-YouTube" id="widget102" style="height: 208px; width: 329px;">
                                         <div class="youtube_widget" id="widget102-youTube">
-                                            <iframe width="329" height="208" frameBorder="0" src="https://www.youtube.com/embed/_EnCirkWzJ4"></iframe>
+                                            <div class="youtube" data-embed="_EnCirkWzJ4" data-width="329" data-height="208"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -856,7 +858,7 @@
                                 <div class="o-tutor-card__video">
                                     <div class="com-apple-iweb-widget-YouTube" id="widget103" style="height: 142px; width: 170px;">
                                         <div class="youtube_widget" id="widget103-youTube">
-                                            <iframe width="170" height="142" frameBorder="0" src="https://www.youtube.com/embed/VZpucYT78-k"></iframe>
+                                            <div class="youtube" data-embed="VZpucYT78-k" data-width="170" data-height="142"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -872,7 +874,7 @@
                                 <div class="o-tutor-card__video">
                                     <div class="com-apple-iweb-widget-YouTube" id="widget104" style="height: 142px; width: 170px;">
                                         <div class="youtube_widget" id="widget104-youTube">
-                                            <iframe width="170" height="142" frameBorder="0" src="https://www.youtube.com/embed/OJTkJbf_a_k"></iframe>
+                                            <div class="youtube" data-embed="OJTkJbf_a_k" data-width="170" data-height="142"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1147,7 +1149,11 @@
                             <div class="thanks-section-item">
                                 <div class="thanks-section-item__in">
                                     <div class="thanks-section-item__video">
-                                        <iframe width="100%" height="163" frameBorder="0" src="https://www.youtube.com/embed/t_4VJP5Fpy4"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 163px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="t_4VJP5Fpy4" data-width="100%" data-height="163"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="thanks-section-item-author">
                                         <div class="thanks-section-item-author__photo">
@@ -1163,7 +1169,11 @@
                             <div class="thanks-section-item">
                                 <div class="thanks-section-item__in">
                                     <div class="thanks-section-item__video">
-                                        <iframe width="100%" height="163" frameBorder="0" src="https://www.youtube.com/embed/evkNjYmQQYw"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 163px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="evkNjYmQQYw" data-width="100%" data-height="163"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="thanks-section-item-author">
                                         <div class="thanks-section-item-author__photo">
@@ -1179,7 +1189,11 @@
                             <div class="thanks-section-item">
                                 <div class="thanks-section-item__in">
                                     <div class="thanks-section-item__video">
-                                        <iframe width="100%" height="163" frameBorder="0" src="https://www.youtube.com/embed/LBu46xVw_G0"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 163px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="LBu46xVw_G0" data-width="100%" data-height="163"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="thanks-section-item-author">
                                         <div class="thanks-section-item-author__photo">
@@ -1195,7 +1209,11 @@
                             <div class="thanks-section-item wide">
                                 <div class="thanks-section-item__in">
                                     <div class="thanks-section-item__video">
-                                        <iframe width="100%" height="163" frameBorder="0" src="https://www.youtube.com/embed/oCPtz6x6ZgI"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 163px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="oCPtz6x6ZgI" data-width="100%" data-height="163"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="thanks-section-item-author">
                                         <div class="thanks-section-item-author__photo">
@@ -1211,7 +1229,11 @@
                             <div class="thanks-section-item wide">
                                 <div class="thanks-section-item__in">
                                     <div class="thanks-section-item__video">
-                                        <iframe width="100%" height="163" frameBorder="0" src="https://www.youtube.com/embed/QyETTxSCitE"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 163px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="QyETTxSCitE" data-width="100%" data-height="163"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="thanks-section-item-author">
                                         <div class="thanks-section-item-author__photo">
@@ -1710,7 +1732,11 @@
                                 <div class="o-tutor-card o-tutor-card--wide">
                                     <div class="o-tutor-card__wrapper">
                                     <div class="o-tutor-card__video">
-                                        <iframe width="100%" height="208" frameBorder="0" src="https://www.youtube.com/embed/nnxfS1Bye6o"></iframe>
+                                        <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 100%;">
+                                            <div class="youtube_widget">
+                                                <div class="youtube" data-embed="nnxfS1Bye6o" data-width="100%" data-height="208"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="o-tutor-card__main">
                                     <br><br>
@@ -1725,7 +1751,12 @@
                             <div class="o-tutor-card o-tutor-card--wide-reversed">
                                 <div class="o-tutor-card__wrapper">
                                 <div class="o-tutor-card__video">
-                                    <iframe width="100%" height="208" frameBorder="0" src="https://www.youtube.com/embed/JLHLmNse0CU"></iframe>
+                                    <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 100%;">
+                                        <div class="youtube_widget">
+                                            <div class="youtube" data-embed="JLHLmNse0CU" data-width="100%" data-height="208"></div>
+
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="o-tutor-card__main">
                                 <br><br>
