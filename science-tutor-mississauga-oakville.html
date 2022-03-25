@@ -72,72 +72,16 @@
     <link href="Home_files/style.css?v=110120222313" rel="stylesheet" media="screen,print"/>
     <link href="Home_files/additional_styles.css?v=8" rel="stylesheet" media="screen,print"/>
     <link href="Home_files/cities.css?v=10" rel="stylesheet" media="screen,print"/>
+  <link href="Home_files/LoadYouTubeVideos.css" rel="stylesheet" media="screen,print"/>
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link href="Private_Credit_Course_files/new/private.css?v=14" rel="stylesheet" media="screen,print"/>
     
     <link rel="stylesheet" type="text/css" media="screen" href="reviews/google-review.css"/>
-    <style type="text/css">
-      <!--
-      @import "Scripts/Widgets/YouTube/YouTube.css";
-      -->
-      
-      
-    </style>
-    <script type="text/javascript" src="Scripts/Widgets/Reviews/jquery.min.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Reviews/star-rating.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script>
-      var jq = $.noConflict();
-      <!--
-      (function($){
-      	$(document).ready(function(){
-      		if ($(".js-show-google-review").length) {
-      			$(".js-show-google-review").click(function(e){
-      				e.preventDefault();
-      				$("#wp-reviews-container").css("display", "block");
-      			});
-      
-      			$(".js-show-google-review").on("mouseenter", function(e){
-      				$("#wp-reviews-container").css("display", "block");
-      			});
-      		}
-      
-      		if ($(".wp-more-toggle").length) {
-      			$(".wp-more-toggle").click(function(){
-      				$(this).siblings(".wp-more").first().attr("class", "");
-      				$(this).hide(0).remove();
-      			});  
-      		}        
-      
-      		$('.js-rating-widget').each(function(){
-      			$(this).rating({
-      				min: 0,
-      				max: 5,
-      				step: 0.1,
-      				size: 'lg',
-      				displayOnly: true,
-      				disabled: true,
-      				filledStar: '<span class="rating-icon-filled"></span>',
-      				emptyStar: '<span class="rating-icon-empty"></span>'
-      			});
-      		});
-      	});
-      })(jq);
-      -->
-    </script>
-    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
-    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
-    
-    <script type="text/javascript" src="Scripts/iWebMediaGrid.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/YouTube/YouTube.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/YouTube/localizedStrings.js"></script>
+  <script type="text/javascript" src="Scripts/LoadYouTubeVideos.js"></script>
 
-    <script type="text/javascript" src="Science_Tutoring_files/Science_Tutoring_updated.js"></script>
-    <script type="text/javascript" src="Home_files/scripts_custom.js"></script>
   </head>
   <body onload="onPageLoad();" onunload="onPageUnload();">
     <div class="container">
@@ -480,7 +424,7 @@
                       <div class="o-tutor-card__video">
                           <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 329px;">
                               <div class="youtube_widget">
-                                  <iframe width="329" height="208" frameborder="0" src="https://www.youtube.com/embed/OJTkJbf_a_k"></iframe>
+                                  <div class="youtube" data-embed="OJTkJbf_a_k" data-width="329" data-height="208"></div>
                               </div>
                           </div>
                           
@@ -502,7 +446,7 @@
                     <div class="o-tutor-card__video">
                         <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 329px;">
                             <div class="youtube_widget">
-                                <iframe width="329" height="208" frameborder="0" src="https://www.youtube.com/embed/VZpucYT78-k"></iframe>
+                                <div class="youtube" data-embed="VZpucYT78-k" data-width="329" data-height="208"></div>
                             </div>
                         </div>
 
@@ -641,14 +585,10 @@
                     
                     <div class="success-story2__video">
                       <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" id="widget1" style="height: 280px; opacity: 1.00; position: relative; width: 335px; z-index: 1; ">
-                        <div class="youtube_widget" id="widget1-youTube"></div>
+                        <div class="youtube_widget" id="widget1-youTube">
+                            <div class="youtube" data-embed="sPdIANwlUM8" data-width="355" data-height="280"></div>
+                        </div>
                       </div>
-                      <script type="text/javascript">
-                        <!--//--><![CDATA[//><!--
-                        new YouTubeWidget('widget1', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/sPdIANwlUM8&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=sPdIANwlUM8", "address": "https:\/\/www.youtube.com\/watch?v=sPdIANwlUM8", "showRelatedVideos": false});
-                        //--><!]]>
-                        
-                      </script>
                     </div>
 
                     <div class="success-story2__description">
@@ -672,14 +612,10 @@
                       <div class="section-b1-video">
                       <div class="section-b1-video__iframe">
                         <div class="com-apple-iweb-widget-YouTube" id="widget501" style="height: 200px; width: 172px;">
-                        <div class="youtube_widget" id="widget501-youTube"></div>
+                        <div class="youtube_widget" id="widget501-youTube">
+                            <div class="youtube" data-embed="S0p7PQB4T0A" data-width="200" data-height="200"></div>
                         </div>
-                        <script>
-                        <!--//--><![CDATA[//><!--
-                        new YouTubeWidget('widget501', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/S0p7PQB4T0A&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=S0p7PQB4T0A", "address": "https:\/\/www.youtube.com\/watch?v=S0p7PQB4T0A", "showRelatedVideos": false});
-                        //--><!]]>
-                        
-                        </script>
+                        </div>
                       </div>
                       <div class="section-b1-video__description">Sebastian G., a grade 12 student admitted to McGill University</div>
                       </div>
@@ -688,14 +624,10 @@
                       <div class="section-b1-video">
                       <div class="section-b1-video__iframe">
                       <div class="com-apple-iweb-widget-YouTube" id="widget502" style="height: 200px; width: 172px;">
-                        <div class="youtube_widget" id="widget502-youTube"></div>
+                        <div class="youtube_widget" id="widget502-youTube">
+                            <div class="youtube" data-embed="QZrgj0GjrjM" data-width="172" data-height="200"></div>
                         </div>
-                        <script>
-                        <!--//--><![CDATA[//><!--
-                        new YouTubeWidget('widget502', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/QZrgj0GjrjM&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=QZrgj0GjrjM", "address": "https:\/\/www.youtube.com\/watch?v=QZrgj0GjrjM", "showRelatedVideos": false});
-                        //--><!]]>
-                        
-                        </script>
+                        </div>
                       </div>
                       <div class="section-b1-video__description">Matt B., a grade 12 student admitted to Laurier Business</div>
                       </div>
@@ -720,7 +652,7 @@
                             <div class="alumni-info">
                                 <div class="alumni-info-name">Mark J.</div>
                                 <div class="alumni-info-red">Investment banking analyst</div>
-                                <div>Conaccord Genuity</div>
+                                <div>Canaccord Genuity</div>
                                 <div>Graduate of Western Ivey</div>
                                 <div style="margin-top: 8px;">QEA student alumni</div>
                             </div>
@@ -804,15 +736,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget2" style="height: 208px; width: 329px;">
-                      <div class="youtube_widget" id="widget2-youTube"></div>
+                      <div class="youtube_widget" id="widget2-youTube">
+                          <div class="youtube" data-embed="OJTkJbf_a_k" data-width="329" data-height="208"></div>
+                      </div>
                     </div>
-                    
-                    <script>
-                      <!--//--><![CDATA[//><!--
-                      new YouTubeWidget('widget2', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/OJTkJbf_a_k&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=OJTkJbf_a_k", "address": "https:\/\/www.youtube.com\/watch?v=OJTkJbf_a_k", "showRelatedVideos": false});
-                      //--><!]]>
-                      
-                    </script>
                     </div>
                     <div class="o-tutor-card__main">
                     <div class="o-tutor-card__name" style="font-size: 20px; line-height: 1.2em; margin-bottom: 0.5em;">Dev D.</div>
@@ -826,15 +753,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget3" style="height: 208px; width: 329px;">
-                      <div class="youtube_widget" id="widget3-youTube"></div>
+                      <div class="youtube_widget" id="widget3-youTube">
+                          <div class="youtube" data-embed="VZpucYT78-k" data-width="329" data-height="208"></div>
+                      </div>
                     </div>
-                    
-                    <script>
-                      <!--//--><![CDATA[//><!--
-                      new YouTubeWidget('widget3', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/VZpucYT78-k&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=VZpucYT78-k", "address": "https:\/\/www.youtube.com\/watch?v=VZpucYT78-k", "showRelatedVideos": false});
-                      //--><!]]>
-                      
-                    </script>
                     </div>
                     <div class="o-tutor-card__main">
                       <br><br>
@@ -948,7 +870,7 @@
 
 					<div class="pt-course-intro pt-course-intro--with-image" style="margin-bottom: 36px;">
                         <div class="pt-course-intro__text">
-                            <div class="pt-course-info-group__title"><h3 style="font-size:32px;margin: 0;">QE Chemistry and Physics Tutors Missisauga and Oakville</h3></div>
+                            <div class="pt-course-info-group__title"><h3 style="font-size:32px;margin: 0;">QE Chemistry and Physics Tutors Mississauga and Oakville</h3></div>
                             <p>Queen Elizabeth Academy’s private tutoring programs offer one on one, personalized lessons that cover the concepts with step by step explanations on homework problems. Get in touch with our expert tutors in Ottawa today.</p>
                         </div>
 
@@ -1218,15 +1140,10 @@
                                     <div class="o-tutor-card__wrapper">
                                     <div class="o-tutor-card__video">
                                     <div class="com-apple-iweb-widget-YouTube" id="widget441" style="height: 208px; width: 329px;">
-                                    <div class="youtube_widget" id="widget441-youTube"></div>
+                                    <div class="youtube_widget" id="widget441-youTube">
+                                        <div class="youtube" data-embed="nnxfS1Bye6o" data-width="329" data-height="208"></div>
                                     </div>
-                                    
-                                    <script>
-                                    <!--//--><![CDATA[//><!--
-                                    new YouTubeWidget('widget441', '../Scripts/Widgets/YouTube', '../Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/nnxfS1Bye6o&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=nnxfS1Bye6o", "address": "https:\/\/www.youtube.com\/watch?v=nnxfS1Bye6o", "showRelatedVideos": false});
-                                    //--><!]]>
-                                    
-                                    </script>
+                                    </div>
                                     </div>
                                     <div class="o-tutor-card__main">
                                     <br><br>
@@ -1243,15 +1160,10 @@
                                 <div class="o-tutor-card__wrapper">
                                 <div class="o-tutor-card__video">
                                 <div class="com-apple-iweb-widget-YouTube" id="widget443" style="height: 208px; width: 329px;">
-                                <div class="youtube_widget" id="widget443-youTube"></div>
+                                <div class="youtube_widget" id="widget443-youTube">
+                                    <div class="youtube" data-embed="JLHLmNse0CU" data-width="329" data-height="208"></div>
                                 </div>
-                                
-                                <script>
-                                <!--//--><![CDATA[//><!--
-                                new YouTubeWidget('widget443', '../Scripts/Widgets/YouTube', '../Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/JLHLmNse0CU&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=JLHLmNse0CU", "address": "https:\/\/www.youtube.com\/watch?v=JLHLmNse0CU", "showRelatedVideos": false});
-                                //--><!]]>
-                                
-                                </script>
+                                </div>
                                 </div>
                                 <div class="o-tutor-card__main">
                                 <br><br>
@@ -1855,7 +1767,7 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget">
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/QZrgj0GjrjM"></iframe>
+                          <div class="youtube" data-embed="QZrgj0GjrjM" data-width="100%" data-height="163"></div>
                         </div>
                     </div>
                   </div>
@@ -1871,7 +1783,8 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0"  style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget" >
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/S0p7PQB4T0A"></iframe></div>
+                          <div class="youtube" data-embed="S0p7PQB4T0A" data-width="100%" data-height="163"></div>
+                      </div>
                     </div>
 
                   </div>
@@ -1886,7 +1799,8 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget">
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/GtDYcw3xNaM"></iframe></div>
+                          <div class="youtube" data-embed="GtDYcw3xNaM" data-width="100%" data-height="163"></div>
+                          </div>
 
                     </div>
         
@@ -1918,16 +1832,9 @@
                         <div class="o-tutor-card__video">
                         <div class="com-apple-iweb-widget-YouTube" id="widget3" style="height: 208px; width: 329px;">
                           <div class="youtube_widget" id="widget3-youTube">
-                            <iframe width="329" height="208" frameBorder="0" src="https://www.youtube.com/embed/SynlyLTbLqg"></iframe>
+                              <div class="youtube" data-embed="SynlyLTbLqg" data-width="329" data-height="208"></div>
                           </div>
                         </div>
-                        
-                        <script>
-                          <!--//--><![CDATA[//><!--
-                          /*new YouTubeWidget('widget3', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/SynlyLTbLqg&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=SynlyLTbLqg", "address": "https:\/\/www.youtube.com\/watch?v=SynlyLTbLqg", "showRelatedVideos": false});*/
-                          //--><!]]>
-                          
-                        </script>
                         </div>
                         <div class="o-tutor-card__main">
                         <br>
@@ -1945,16 +1852,9 @@
                         <div class="o-tutor-card__video">
                         <div class="com-apple-iweb-widget-YouTube" id="widget4" style="height: 208px; width: 329px;">
                         <div class="youtube_widget" id="widget4-youTube">
-                          <iframe width="329" height="208" frameBorder="0" src="https://www.youtube.com/embed/OphbdhP_yQI"></iframe>
+                            <div class="youtube" data-embed="OphbdhP_yQI" data-width="329" data-height="208"></div>
                           </div>
                         </div>
-                        
-                        <script>
-                        <!--//--><![CDATA[//><!--
-                        /*new YouTubeWidget('widget4', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/OphbdhP_yQI&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=OphbdhP_yQI", "address": "https:\/\/www.youtube.com\/watch?v=OphbdhP_yQI", "showRelatedVideos": false});*/
-                        //--><!]]>
-                        
-                        </script>
                         </div>
                         <div class="o-tutor-card__main">
                         <br>
@@ -2876,51 +2776,6 @@
 <!-- Reviews Container finish -->
     </div>
 
-    <script>
-		<!--
-		(function($){
-			$(document).ready(function(){
-			//jq(".p-review-card").matchHeight();
-  
-				if ($(".js-g-reviews-carousel").length) {
-			  $(".js-g-reviews-carousel").on("init", function(){
-				//jq(".p-review-card").matchHeight();
-  
-				/* $(document).on("click", ".js-g-reviews-carousel .wp-more-toggle", function(){
-					$(".js-g-reviews-carousel").slick("setPosition");
-				}); */
-			  });
-  
-			  $(".js-g-reviews-carousel").slick({
-				arrows: false,
-				dots: false,
-				variableWidth: true,
-				autoplay: true,
-				autoplaySpeed: 2000
-			  });
-			  
-				}
-
-
-        $(".js-red-tab-link").click(function(e){
-            e.preventDefault();
-
-            var panel = $(this).next();
-
-            if ($(this).hasClass("active")) {
-              // Hide
-              panel.stop(true).slideUp();
-              $(this).removeClass("active");
-            } else {
-              // Open
-              panel.stop(true).slideDown();
-              $(this).addClass("active");
-            }
-          });
-		
-			});
-		})(jq);
-		-->
-    </script>
+    <script src="Scripts/bundle.min.js"></script>
   </body>
 </html>
