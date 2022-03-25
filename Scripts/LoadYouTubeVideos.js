@@ -8,11 +8,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
         //set CSS
         youTubeVideos[i].style.cssText = "max-width: "+youTubeVideos[i].dataset.width+"px; height: " + youTubeVideos[i].dataset.height + "px;";
 
-        //set microdata attributes for SEO
-        youTubeVideos[i].setAttribute("itemprop", "video");
-        youTubeVideos[i].setAttribute("itemscope", '');
-        youTubeVideos[i].setAttribute("itemtype", "http://schema.org/VideoObject");
-
         //set HTML
         youTubeVideos[i].innerHTML = '' +
             '<meta itemprop="embedURL" content="https://www.youtube.com/embed/' + youTubeVideos[i].dataset.embed + '" />' +
