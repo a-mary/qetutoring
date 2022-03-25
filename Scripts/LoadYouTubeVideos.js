@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var thumbnail = "https://i.ytimg.com/vi_webp/" + youTubeVideos[i].dataset.embed + "/sddefault.webp";
 
         //set CSS
-        youTubeVideos[i].style.cssText = "max-width: 100%;";
+        youTubeVideos[i].style.cssText = "max-width: "+youTubeVideos[i].dataset.width+"px; height: " + youTubeVideos[i].dataset.height + "px;";
 
         //set microdata attributes for SEO
         youTubeVideos[i].setAttribute("itemprop", "video");

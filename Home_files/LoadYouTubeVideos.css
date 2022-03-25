@@ -2,6 +2,10 @@
     cursor: pointer;
 }
 
+.youtube {
+    position: relative;
+}
+
 .youtube:hover .ytp-large-play-button-bg {
     fill: rgb(255, 0, 0);
     fill-opacity: 1;
