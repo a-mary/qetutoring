@@ -114,67 +114,8 @@
     <link href="Private_Credit_Course_files/new/private.css?v=14" rel="stylesheet" media="screen,print"/>
 
     <link rel="stylesheet" type="text/css" media="screen" href="reviews/google-review.css"/>
-    <style type="text/css">
-      <!--
-      @import "Scripts/Widgets/YouTube/YouTube.css";
-      -->
-      
-      
-    </style>
-    <script type="text/javascript" src="Scripts/Widgets/Reviews/jquery.min.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Reviews/star-rating.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    
-    <script>
-      var jq = $.noConflict();
-      <!--
-      (function($){
-      	$(document).ready(function(){
-      		if ($(".js-show-google-review").length) {
-      			$(".js-show-google-review").click(function(e){
-      				e.preventDefault();
-      				$("#wp-reviews-container").css("display", "block");
-      			});
-      
-      			$(".js-show-google-review").on("mouseenter", function(e){
-      				$("#wp-reviews-container").css("display", "block");
-      			});
-      		}
-      
-      		if ($(".wp-more-toggle").length) {
-      			$(".wp-more-toggle").click(function(){
-      				$(this).siblings(".wp-more").first().attr("class", "");
-      				$(this).hide(0).remove();
-      			});  
-      		}        
-      
-      		$('.js-rating-widget').each(function(){
-      			$(this).rating({
-      				min: 0,
-      				max: 5,
-      				step: 0.1,
-      				size: 'lg',
-      				displayOnly: true,
-      				disabled: true,
-      				filledStar: '<span class="rating-icon-filled"></span>',
-      				emptyStar: '<span class="rating-icon-empty"></span>'
-      			});
-      		});
-      	});
-      })(jq);
-      -->
-    </script>
-    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
-    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
 
-    <script type="text/javascript" src="Scripts/iWebMediaGrid.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/YouTube/YouTube.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/YouTube/localizedStrings.js"></script>
 
-    <script type="text/javascript" src="English_Tutoring_files/English_Tutoring.js"></script>
-    <script type="text/javascript" src="Home_files/scripts_custom.js"></script>
   </head>
   <body onload="onPageLoad();" onunload="onPageUnload();">
     <div class="container">
@@ -406,8 +347,8 @@
       <div class="page page--yellow">
         <div class="et-content">
 
-            <div class="eng-top-banner" style="background-image: url('Home_files/img/english/mississauga/english-tutor-in-mississauga.jpg');">
-                <img src="Home_files/img/english/mississauga/english-tutor-in-mississauga.jpg" alt="english tutor in mississauga" style="display: none;">
+            <div class="eng-top-banner b-lazy" data-src="Home_files/img/english/mississauga/english-tutor-in-mississauga.jpg">
+                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutor-in-mississauga.jpg" alt="english tutor in mississauga" style="display: none;">
                 <h1 class="eng-top-banner__text">English Tutor Mississauga</h1>
             </div>
 
@@ -506,7 +447,7 @@
                 <div class="cta-blue__email">vwlee2008@gmail.com</div>
             </div>
 
-            <div class="success-banner" id="success-stories" style="background-image: url('Home_files/img/english/mississauga/english-tutoring-mississauga-13.jpg');">
+            <div class="success-banner b-lazy" id="success-stories" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-13.jpg">
                 <h4 class="success-banner__text">Success<br> Stories</h4>
             </div>
 
@@ -521,7 +462,7 @@
                                 <p>Congratulations to Stephanie L., who ranked <span class="red">Top 15 in Canada </span> <span class="black">selected</span> by University Hub.</p>
                             </div>
                             <div class="top-achievers__content-r">
-                                <div class="tinyText style_SkipStroke_6 stroke_0 shadow_21" style="height: 71px; width: 71px;"><img src="Home_files/img/english/mississauga/writing-class-1.png" alt="queen elizabeth tutor" style="border: none; height: 72px; width: 71px;"></div>
+                                <div class="tinyText style_SkipStroke_6 stroke_0 shadow_21" style="height: 71px; width: 71px;"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-1.png" alt="queen elizabeth tutor" style="border: none; height: 72px; width: 71px;"></div>
                             </div>
                         </div>
 
@@ -617,19 +558,15 @@
 
                                 <div class="success-story2__video">
                                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" id="widget1" style="height: 280px; opacity: 1.00; position: relative; width: 335px; z-index: 1; ">
-                                        <div class="youtube_widget" id="widget1-youTube"></div>
+                                        <div class="youtube_widget" id="widget1-youTube">
+                                            <iframe width="100%" height="280" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/sPdIANwlUM8" src=""></iframe>
+                                        </div>
                                     </div>
-                                    <script type="text/javascript">
-                                        <!--//--><![CDATA[//><!--
-                                        new YouTubeWidget('widget1', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/sPdIANwlUM8&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=sPdIANwlUM8", "address": "https:\/\/www.youtube.com\/watch?v=sPdIANwlUM8", "showRelatedVideos": false});
-                                        //--><!]]>
-
-                                    </script>
                                 </div>
 
                                 <div class="success-story2__description">
                                     <div class="success-story2__photo">
-                                        <div class="tinyText style_SkipStroke" style="height: 53px; width: 39px; position: relative;"><img src="Home_files/img/english/mississauga/english-tutoring-mississauga-2.jpg" alt="english tutoring" style="border: none; height: 53px; width: 39px;"></div>
+                                        <div class="tinyText style_SkipStroke" style="height: 53px; width: 39px; position: relative;"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-2.jpg" alt="english tutoring" style="border: none; height: 53px; width: 39px;"></div>
                                     </div>
                                     <div class="success-story2__name">Jerry T.</div>
                                     <div class="success-story2__text">Admitted to Queen’s Commerce</div>
@@ -648,14 +585,10 @@
                                         <div class="section-b1-video">
                                             <div class="section-b1-video__iframe">
                                                 <div class="com-apple-iweb-widget-YouTube" id="widget501" style="height: 200px; width: 172px;">
-                                                    <div class="youtube_widget" id="widget501-youTube"></div>
+                                                    <div class="youtube_widget" id="widget501-youTube">
+                                                        <iframe width="100%" height="200" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/S0p7PQB4T0A" src=""></iframe>
+                                                    </div>
                                                 </div>
-                                                <script>
-                                                    <!--//--><![CDATA[//><!--
-                                                    new YouTubeWidget('widget501', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/S0p7PQB4T0A&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=S0p7PQB4T0A", "address": "https:\/\/www.youtube.com\/watch?v=S0p7PQB4T0A", "showRelatedVideos": false});
-                                                    //--><!]]>
-
-                                                </script>
                                             </div>
                                             <div class="section-b1-video__description">Sebastian G., a grade 12 student admitted to McGill University</div>
                                         </div>
@@ -664,14 +597,10 @@
                                         <div class="section-b1-video">
                                             <div class="section-b1-video__iframe">
                                                 <div class="com-apple-iweb-widget-YouTube" id="widget502" style="height: 200px; width: 172px;">
-                                                    <div class="youtube_widget" id="widget502-youTube"></div>
+                                                    <div class="youtube_widget" id="widget502-youTube">
+                                                        <iframe width="100%" height="200" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/QZrgj0GjrjM" src=""></iframe>
+                                                    </div>
                                                 </div>
-                                                <script>
-                                                    <!--//--><![CDATA[//><!--
-                                                    new YouTubeWidget('widget502', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/QZrgj0GjrjM&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=QZrgj0GjrjM", "address": "https:\/\/www.youtube.com\/watch?v=QZrgj0GjrjM", "showRelatedVideos": false});
-                                                    //--><!]]>
-
-                                                </script>
                                             </div>
                                             <div class="section-b1-video__description">Matt B., a grade 12 student admitted to Laurier Business</div>
                                         </div>
@@ -692,7 +621,7 @@
                     <div class="success-alumni__left" >
                         <div class="alumni">
                             <div class="alumni-img">
-                                <img src="Home_files/img/math/mississauga/math-tutor-mississauga-32.jpg?v=2" alt="math tutor Mississauga">
+                                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-32.jpg?v=2" alt="math tutor Mississauga">
                             </div>
                             <div class="alumni-info">
                                 <div class="alumni-info-name">Mark J.</div>
@@ -704,7 +633,7 @@
                         </div>
                         <div class="alumni">
                             <div class="alumni-img">
-                                <img src="Home_files/img/math/mississauga/math-tutor-mississauga-28.jpg?v=2" alt="math tutor Mississauga">
+                                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-28.jpg?v=2" alt="math tutor Mississauga">
                             </div>
                             <div class="alumni-info" style="width: 62%;">
                                 <div class="alumni-info-name" >Dr. T. Ward-able</div>
@@ -718,7 +647,7 @@
                     <div class="success-alumni__right">
                         <div class="alumni">
                             <div class="alumni-img" >
-                                <img src="Home_files/img/math/mississauga/math-tutor-mississauga-31.jpg?v=2" alt="math tutor Mississauga">
+                                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-31.jpg?v=2" alt="math tutor Mississauga">
                             </div>
                             <div class="alumni-info">
                                 <div class="alumni-info-name" >Julia S.</div>
@@ -731,7 +660,7 @@
 
                         <div class="alumni">
                             <div class="alumni-img" >
-                                <img src="Home_files/img/math/mississauga/math-tutor-mississauga-30.jpg?v=2" alt="math tutor Mississauga">
+                                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-30.jpg?v=2" alt="math tutor Mississauga">
                             </div>
                             <div class="alumni-info">
                                 <div class="alumni-info-name" >Justin C.</div>
@@ -745,7 +674,7 @@
                         </div>
                         <div class="alumni">
                             <div class="alumni-img" >
-                                <img src="Home_files/img/math/mississauga/math-tutor-mississauga-29.jpg?v=2" alt="math tutor Mississauga">
+                                <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-29.jpg?v=2" alt="math tutor Mississauga">
                             </div>
                             <div class="alumni-info">
                                 <div class="alumni-info-name" >Sam A.</div>
@@ -766,7 +695,7 @@
                 <div class="cta-blue__email">vwlee2008@gmail.com</div>
             </div>
 
-            <div class="meet-banner" id="meet-our-tutors" style="background-image: url('Home_files/img/english/mississauga/english-tutoring-13.jpg');">
+            <div class="meet-banner b-lazy" id="meet-our-tutors" data-src="Home_files/img/english/mississauga/english-tutoring-13.jpg">
                 <h3 class="meet-banner__text" style="background-color: rgba(243, 180, 199, 0.8); right: 9%;">Meet our English Tutors in Mississauga</h3>
             </div>
           
@@ -782,15 +711,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget2" style="height: 208px; width: 329px;">
-                      <div class="youtube_widget" id="widget2-youTube"></div>
+                      <div class="youtube_widget" id="widget2-youTube">
+                          <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/H_pKNzCqMRY" src=""></iframe>
+                      </div>
                     </div>
-                    
-                    <script>
-                      <!--//--><![CDATA[//><!--
-                      new YouTubeWidget('widget2', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/H_pKNzCqMRY&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=H_pKNzCqMRY", "address": "https:\/\/www.youtube.com\/watch?v=H_pKNzCqMRY", "showRelatedVideos": false});
-                      //--><!]]>
-                      
-                    </script>
                     </div>
                     <div class="o-tutor-card__main">
                     <br><br>
@@ -805,15 +729,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget21" style="height: 208px; width: 329px;">
-                      <div class="youtube_widget" id="widget21-youTube"></div>
+                      <div class="youtube_widget" id="widget21-youTube">
+                          <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/8jJY4s94UMU" src=""></iframe>
+                      </div>
                     </div>
-                    
-                    <script>
-                      <!--//--><![CDATA[//><!--
-                      new YouTubeWidget('widget21', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/8jJY4s94UMU&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=8jJY4s94UMU", "address": "https:\/\/www.youtube.com\/watch?v=8jJY4s94UMU", "showRelatedVideos": false});
-                      //--><!]]>
-                      
-                    </script>
                     </div>
                     <div class="o-tutor-card__main">
                     <br><br>
@@ -839,15 +758,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget3" style="height: 208px; width: 329px;">
-                      <div class="youtube_widget" id="widget3-youTube"></div>
+                      <div class="youtube_widget" id="widget3-youTube">
+                          <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/SynlyLTbLqg" src=""></iframe>
+                      </div>
                     </div>
-                    
-                    <script>
-                      <!--//--><![CDATA[//><!--
-                      new YouTubeWidget('widget3', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/SynlyLTbLqg&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=SynlyLTbLqg", "address": "https:\/\/www.youtube.com\/watch?v=SynlyLTbLqg", "showRelatedVideos": false});
-                      //--><!]]>
-                      
-                    </script>
                     </div>
                     <div class="o-tutor-card__main">
                     <br><br>
@@ -862,15 +776,10 @@
                   <div class="o-tutor-card__wrapper">
                     <div class="o-tutor-card__video">
                     <div class="com-apple-iweb-widget-YouTube" id="widget4" style="height: 208px; width: 329px;">
-                    <div class="youtube_widget" id="widget4-youTube"></div>
+                    <div class="youtube_widget" id="widget4-youTube">
+                        <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/OphbdhP_yQI" src=""></iframe>
                     </div>
-                    
-                    <script>
-                    <!--//--><![CDATA[//><!--
-                    new YouTubeWidget('widget4', 'Scripts/Widgets/YouTube', 'Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/OphbdhP_yQI&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=OphbdhP_yQI", "address": "https:\/\/www.youtube.com\/watch?v=OphbdhP_yQI", "showRelatedVideos": false});
-                    //--><!]]>
-                    
-                    </script>
+                    </div>
                     </div>
                     <div class="o-tutor-card__main">
                     <br><br>
@@ -895,8 +804,8 @@
             </div>
 
             <div class="pt-course-new-section" style="margin-top: 0;" id="qea-approach">
-                <div class="c-banner-white c-banner--mobile-bg" style="background-image: url('Home_files/img/cities/mississauga/tutoring-near-me-mississauga-3.jpg');">
-                    <img title="Tutoring Mississauga" src="Home_files/img/cities/mississauga/tutoring-near-me-mississauga-3.jpg" alt="tutoring near me">
+                <div class="c-banner-white c-banner--mobile-bg b-lazy" data-src="Home_files/img/cities/mississauga/tutoring-near-me-mississauga-3.jpg">
+                    <img title="Tutoring Mississauga" class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/cities/mississauga/tutoring-near-me-mississauga-3.jpg" alt="tutoring near me">
                     <div class="c-banner-white__text"><h3 style="font-size:36px;margin: 0;">The QEA approach to English Tutoring Mississauga</h3>
                         <div class="c-banner-white__text-subtitle"><h3 style="font-size:27px;margin: 0;">&nbsp;- How is our tutoring lessons run?</h3></div>
                     </div>
@@ -911,7 +820,7 @@
                         </div>
 
                         <div class="pt-course-intro__right-img">
-                            <img src="Home_files/img/cities/mississauga/math-tutoring-mississauga-55.png?v=4" alt="tutoring mississauga">
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/cities/mississauga/math-tutoring-mississauga-55.png?v=4" alt="tutoring mississauga">
 
                             <div class="pt-course-intro__img-caption">QE tutor Philip teaching a QE student</div>
                         </div>
@@ -932,7 +841,7 @@
                             <div class="learning-s2-group">
                                 <div class="learning-s2-group-title">
                                     <div class="learning-s2-group-title__icon">
-                                        <img src="Home_files/img/cities/mississauga/tutoring-mississauga-51.png" alt="">
+                                        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/cities/mississauga/tutoring-mississauga-51.png" alt="">
                                     </div>
                                     <div class="learning-s2-group-title__text">1. Essay Writing
                                       <h3 style="margin: 0.5em 0 0; font-weight: 400; font-size: 16px; line-height: 1.2em;">English tutoring Mississauga</h3>
@@ -953,7 +862,7 @@
                             <div class="learning-s2-group">
                                 <div class="learning-s2-group-title">
                                     <div class="learning-s2-group-title__icon">
-                                        <img src="Home_files/img/cities/mississauga/tutoring-mississauga-52.png" alt="">
+                                        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/cities/mississauga/tutoring-mississauga-52.png" alt="">
                                     </div>
                                     <div class="learning-s2-group-title__text">2. Critical Thinking
                                       <h3 style="margin: 0.5em 0 0; font-weight: 400; font-size: 16px; line-height: 1.2em;">English tutoring Mississauga</h3>
@@ -970,7 +879,7 @@
                             <div class="learning-s2-group">
                                 <div class="learning-s2-group-title">
                                     <div class="learning-s2-group-title__icon">
-                                        <img src="Home_files/img/cities/mississauga/tutoring-mississauga-53.png" alt="">
+                                        <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/cities/mississauga/tutoring-mississauga-53.png" alt="">
                                     </div>
                                     <div class="learning-s2-group-title__text">3. Reading comprehension - understanding complex literature
                                       <h3 style="margin: 0.5em 0 0; font-weight: 400; font-size: 16px; line-height: 1.2em;">English tutoring Mississauga</h3>
@@ -1237,7 +1146,7 @@
                 <div class="cta-blue__email">vwlee2008@gmail.com</div>
             </div>
 
-          <div class="s-blog-banner s-blog-banner--custom1" id="one-on-one-tutoring" style="background-image: url('Home_files/img/english/mississauga/writing-class-13.jpg'); margin-bottom: 40px;">
+          <div class="s-blog-banner s-blog-banner--custom1 b-lazy" id="one-on-one-tutoring" data-src="Home_files/img/english/mississauga/writing-class-13.jpg" style="margin-bottom: 40px;">
               <h2 class="s-blog-banner__text s-blog-banner__text--no-br">High School English Tutoring in Mississauga</h2>
           </div>
 
@@ -1309,7 +1218,7 @@
             </div>
 
             <div class="m-cd" id="study-effectively">
-                <div class="m-cd-banner" style="background-image: url('Home_files/img/math/mississauga/math-tutor-mississauga-25.jpg?v=2');">
+                <div class="m-cd-banner b-lazy" data-src="Home_files/img/math/mississauga/math-tutor-mississauga-25.jpg?v=2">
                     <div class="m-cd-banner__textbox">
                         <div class="m-cd-banner__title">Study effectively</div>
                         <div class="m-cd-banner__subtitle">with QE Tutoring Mississauga</div>
@@ -1370,15 +1279,10 @@
                                     <div class="o-tutor-card__wrapper">
                                     <div class="o-tutor-card__video">
                                     <div class="com-apple-iweb-widget-YouTube" id="widget441" style="height: 208px; width: 329px;">
-                                    <div class="youtube_widget" id="widget441-youTube"></div>
+                                    <div class="youtube_widget" id="widget441-youTube">
+                                        <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/nnxfS1Bye6o" src=""></iframe>
                                     </div>
-                                    
-                                    <script>
-                                    <!--//--><![CDATA[//><!--
-                                    new YouTubeWidget('widget441', '../Scripts/Widgets/YouTube', '../Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/nnxfS1Bye6o&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=nnxfS1Bye6o", "address": "https:\/\/www.youtube.com\/watch?v=nnxfS1Bye6o", "showRelatedVideos": false});
-                                    //--><!]]>
-                                    
-                                    </script>
+                                    </div>
                                     </div>
                                     <div class="o-tutor-card__main">
                                     <br><br>
@@ -1395,15 +1299,10 @@
                                 <div class="o-tutor-card__wrapper">
                                 <div class="o-tutor-card__video">
                                 <div class="com-apple-iweb-widget-YouTube" id="widget443" style="height: 208px; width: 329px;">
-                                <div class="youtube_widget" id="widget443-youTube"></div>
+                                <div class="youtube_widget" id="widget443-youTube">
+                                    <iframe width="100%" height="208" frameBorder="0" class="b-lazy" data-src="https://www.youtube.com/embed/JLHLmNse0CU" src=""></iframe>
                                 </div>
-                                
-                                <script>
-                                <!--//--><![CDATA[//><!--
-                                new YouTubeWidget('widget443', '../Scripts/Widgets/YouTube', '../Scripts/Widgets/SharedResources', '.', {"movieURL": "https:\/\/www.youtube.com\/v\/JLHLmNse0CU&rel=0", "lastNormalizedAddress": "https:\/\/www.youtube.com\/watch?v=JLHLmNse0CU", "address": "https:\/\/www.youtube.com\/watch?v=JLHLmNse0CU", "showRelatedVideos": false});
-                                //--><!]]>
-                                
-                                </script>
+                                </div>
                                 </div>
                                 <div class="o-tutor-card__main">
                                 <br><br>
@@ -1455,7 +1354,7 @@
             </div>
 
        
-          <div class="pt-img-banner pt-img-banner--et-reading" id="reading-comprehension"><img src="Home_files/img/english/mississauga/english-tutoring-2.jpg" alt="english tutor oakville" style="border: none;">
+          <div class="pt-img-banner pt-img-banner--et-reading" id="reading-comprehension"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-2.jpg" alt="english tutor oakville" style="border: none;">
             <h2 class="pt-img-banner__title">English Tutoring <span style="display: block;">on Reading Comprehension</span></h2>
           </div>
           <div class="pt-course-intro">
@@ -1473,7 +1372,7 @@
               <div class="inquire-horizontal-box__text-right">Call Queen Elizabeth Academy at (905) 257 - 9009</div>
             </div>
           </div>
-          <div class="pt-img-banner pt-img-banner--et-writing" id="writing"><img src="Home_files/img/english/mississauga/writing-class-2.jpg" alt="english tutoring" style="border: none;">
+          <div class="pt-img-banner pt-img-banner--et-writing" id="writing"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-2.jpg" alt="english tutoring" style="border: none;">
             <h2 class="pt-img-banner__title">English Tutoring <span style="color: black; display: block;">on <span>Writing</span></span></h2>
           </div>
           <div class="pt-course-intro">
@@ -1492,7 +1391,7 @@
             <div class="inquire-horizontal-box__text-center">To inquire about our <span>English tutoring Mississauga</span>,</div>
             <div class="inquire-horizontal-box__text-right">Call Queen Elizabeth Academy at (905) 257 - 9009</div>
           </div>
-          <div class="pt-img-banner pt-img-banner--et-analysis" id="critical-analysis"><img src="Home_files/img/english/mississauga/english-tutoring-mississauga-3.jpg" alt="English tutoring">
+          <div class="pt-img-banner pt-img-banner--et-analysis" id="critical-analysis"><img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-3.jpg" alt="English tutoring">
               <h2 class="pt-img-banner__title">English Tutoring <span style="color: black; display: block;">on <span>Critical Analysis</span></span></h2>
           </div>
           <div class="pt-course-intro">
@@ -1561,7 +1460,7 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget">
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/QZrgj0GjrjM"></iframe>
+                        <iframe width="100%" height="163" class="b-lazy" src="" data-src="https://www.youtube.com/embed/QZrgj0GjrjM"></iframe>
                         </div>
                     </div>
                   </div>
@@ -1577,7 +1476,7 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0"  style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget" >
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/S0p7PQB4T0A"></iframe></div>
+                        <iframe width="100%" height="163" class="b-lazy" src="" data-src="https://www.youtube.com/embed/S0p7PQB4T0A"></iframe></div>
                     </div>
 
                   </div>
@@ -1592,7 +1491,7 @@
                   <div class="thanks-section-item__video">
                     <div class="com-apple-iweb-widget-YouTube aboveStrokesAndFrames stroke_0" style="height: 163px; opacity: 1.00; position: relative; width: 195px; z-index: 1; ">
                       <div class="youtube_widget">
-                        <iframe width="100%" height="163" src="https://www.youtube.com/embed/GtDYcw3xNaM"></iframe></div>
+                        <iframe width="100%" height="163" class="b-lazy" src="" data-src="https://www.youtube.com/embed/GtDYcw3xNaM"></iframe></div>
 
                     </div>
         
@@ -1624,7 +1523,7 @@
                         <div class="o-tutor-card__video">
                         <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 329px;">
                           <div class="youtube_widget">
-                            <iframe width="329" height="208" frameBorder="0" src="https://www.youtube.com/embed/SynlyLTbLqg"></iframe>
+                            <iframe width="329" height="208" frameBorder="0" class="b-lazy" src="" data-src="https://www.youtube.com/embed/SynlyLTbLqg"></iframe>
                           </div>
                         </div>
                         
@@ -1646,7 +1545,7 @@
                         <div class="o-tutor-card__video">
                         <div class="com-apple-iweb-widget-YouTube" style="height: 208px; width: 329px;">
                         <div class="youtube_widget" >
-                          <iframe width="329" height="208" frameBorder="0" src="https://www.youtube.com/embed/OphbdhP_yQI"></iframe>
+                          <iframe width="329" height="208" frameBorder="0" class="b-lazy" src="" data-src="https://www.youtube.com/embed/OphbdhP_yQI"></iframe>
                           </div>
                         </div>
                         
@@ -1680,7 +1579,7 @@
               <div class="p-reviews__subtitle"><h4 style="font-size:24px; color:#010101;">Queen Elizabeth Academy | Private Credit Courses </h4></div>
               <div class="p-reviews__images">
                 <div class="p-reviews__images-item">
-                  <img src="Home_files/img/english/mississauga/english-tutoring-3.png" alt="powered by Google">
+                  <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-3.png" alt="powered by Google">
                 </div>
                 <div class="p-reviews__images-item">
                   <div class="wp-google-badge-score">
@@ -2117,13 +2016,13 @@
         <div class="map-section">
               <div class="map-section__title">Queen Elizabeth Academy</div>
               <div class="map-section__map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.0384473219606!2d-79.62059628383393!3d43.52239096889631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b4445b8e55555%3A0x1bf9104331aac4b4!2sQueen%20Elizabeth%20Academy!5e0!3m2!1sen!2sca!4v1646661490882!5m2!1sen!2sca" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  <iframe class="b-lazy" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.0384473219606!2d-79.62059628383393!3d43.52239096889631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b4445b8e55555%3A0x1bf9104331aac4b4!2sQueen%20Elizabeth%20Academy!5e0!3m2!1sen!2sca!4v1646661490882!5m2!1sen!2sca" src="" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
           </div>
         <div class="c-nav-section__top">
           <div class="c-nav-section__top-logo">
             <a href="/">
-              <img src="Home_files/img/english/mississauga/writing-class-3.png" alt=""></a>            
+              <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-3.png" alt=""></a>
           </div>
           <div class="c-nav-section__top-title">Queen Elizabeth<br> Academy</div>
         </div>
@@ -2201,7 +2100,7 @@
     <div class="wp-google-form wp-google-form-left" style="display: none;" id="wp-reviews-container">
         <div class="wp-google-head">
             <div class="wp-google-head-inner">
-                <div class="wp-google-left"> <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-4.png" alt="Queen Elizabeth Academy" /></div>
+                <div class="wp-google-left"> <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-4.png" alt="Queen Elizabeth Academy" /></div>
                 <div class="wp-google-right">
                     <div class="wp-google-name"><span>Queen Elizabeth Academy</span></div>
                     <div>
@@ -2222,7 +2121,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-4.png" alt="Andrew Gallacher" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-4.png" alt="Andrew Gallacher" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Andrew Gallacher</div>
@@ -2239,7 +2138,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-4.png" alt="Jamal Shihadeh" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-4.png" alt="Jamal Shihadeh" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Jamal Shihadeh</div>
@@ -2256,7 +2155,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-5.png" alt="Nancy Eliou" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-5.png" alt="Nancy Eliou" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Nancy Eliou</div>
@@ -2273,7 +2172,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-5.png" alt="Connie Routhier" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-5.png" alt="Connie Routhier" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Connie Routhier</div>
@@ -2290,7 +2189,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-5.png" alt="N Pais" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-5.png" alt="N Pais" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">N Pais</div>
@@ -2307,7 +2206,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-6.png" alt="Hyeja Otsuki" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-6.png" alt="Hyeja Otsuki" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Hyeja Otsuki</div>
@@ -2325,7 +2224,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-6.png" alt="quan van" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-6.png" alt="quan van" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">quan van</div>
@@ -2342,7 +2241,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-6.png" alt="Jasmine Duong" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-6.png" alt="Jasmine Duong" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Jasmine Duong</div>
@@ -2360,7 +2259,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-7.png" alt="Anna and Trevor Brown" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-7.png" alt="Anna and Trevor Brown" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Anna and Trevor Brown</div>
@@ -2378,7 +2277,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-7.png" alt="Linda Mitchell-D" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-7.png" alt="Linda Mitchell-D" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Linda Mitchell-D</div>
@@ -2395,7 +2294,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-7.png" alt="Marija Dokic" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-7.png" alt="Marija Dokic" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Marija Dokic</div>
@@ -2412,7 +2311,7 @@
                     
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-8.png" alt="Deborah Scott" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-8.png" alt="Deborah Scott" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Deborah Scott</div>
@@ -2429,7 +2328,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-8.png" alt="Anum Malik" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-8.png" alt="Anum Malik" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Anum Malik</div>
@@ -2446,7 +2345,7 @@
                 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-8.png" alt="Irina Arkhipova" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-8.png" alt="Irina Arkhipova" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Irina Arkhipova</div>
@@ -2463,7 +2362,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-9.png" alt="Renata K" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-9.png" alt="Renata K" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Renata K</div>
@@ -2480,7 +2379,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-9.png" alt="H Q" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-9.png" alt="H Q" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">H Q</div>
@@ -2497,7 +2396,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-9.png" alt="Rose Caliendo" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-9.png" alt="Rose Caliendo" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Rose Caliendo</div>
@@ -2516,7 +2415,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-10.png" alt="Ayesha Syed" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-10.png" alt="Ayesha Syed" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Ayesha Syed</div>
@@ -2533,7 +2432,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-10.png" alt="Diana Leaman" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-10.png" alt="Diana Leaman" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Diana Leaman</div>
@@ -2550,7 +2449,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-10.png" alt="Jerry Tang" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-10.png" alt="Jerry Tang" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Jerry Tang</div>
@@ -2567,7 +2466,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-11.png" alt="Heidi Morley" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-11.png" alt="Heidi Morley" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Heidi Morley</div>
@@ -2584,7 +2483,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-11.png" alt="Rosanna Marangoni" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-11.png" alt="Rosanna Marangoni" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Rosanna Marangoni</div>
@@ -2601,7 +2500,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/writing-class-11.png" alt="barb underhill" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-11.png" alt="barb underhill" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">barb underhill</div>
@@ -2618,7 +2517,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-mississauga-12.png" alt="Kathleen Chan" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-mississauga-12.png" alt="Kathleen Chan" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Kathleen Chan</div>
@@ -2635,7 +2534,7 @@
 
                     <div class="wp-google-review ">
                         <div class="wp-google-left">
-                            <img src="Home_files/img/english/mississauga/english-tutoring-12.png" alt="Shaher Kattaf" />
+                            <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/english-tutoring-12.png" alt="Shaher Kattaf" />
                         </div>
                         <div class="wp-google-right">
                             <div class="wp-google-name">Shaher Kattaf</div>
@@ -2653,86 +2552,12 @@
                 </div>
             </div>
         </div>
-        <div class="wp-google-footer"> <img src="Home_files/img/english/mississauga/writing-class-12.png" alt="powered by Google"></div>
+        <div class="wp-google-footer"> <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="Home_files/img/english/mississauga/writing-class-12.png" alt="powered by Google"></div>
     </div>
 </div>
 <!-- Reviews Container finish -->
     </div>
 
-    <script>
-		<!--
-		(function($){
-			$(document).ready(function(){
-			//jq(".p-review-card").matchHeight();
-  
-				if ($(".js-g-reviews-carousel").length) {
-			  $(".js-g-reviews-carousel").on("init", function(){
-				//jq(".p-review-card").matchHeight();
-  
-				/* $(document).on("click", ".js-g-reviews-carousel .wp-more-toggle", function(){
-					$(".js-g-reviews-carousel").slick("setPosition");
-				}); */
-			  });
-  
-			  $(".js-g-reviews-carousel").slick({
-				arrows: false,
-				dots: false,
-				variableWidth: true,
-				autoplay: true,
-				autoplaySpeed: 2000
-			  });
-			  
-				}
-
-        if ($(".js-faq-tab-link").length) {
-            $(".js-faq-tab-link").click(function(e){
-            e.preventDefault();
-            var panel = $(this).next();
-
-            if ($(this).hasClass("active")) {
-                // collapse
-                panel.stop(true).slideUp();
-                $(this).removeClass("active");
-            } else {
-                // expand
-                panel.stop(true).slideDown();
-                $(this).addClass("active");
-            }
-            });
-        }
-
-        // Scroll to section
-            $(document).on("click", ".js-scroll-to", function(e){
-                e.preventDefault();
-                
-                var target_id = $(this).attr("href");
-                if ($(target_id).length) {
-                    $('html, body').animate({
-                    scrollTop: $(target_id).offset().top
-                }, 1000);
-                }
-                
-            });
-
-            $(".js-red-tab-link").click(function(e){
-                e.preventDefault();
-
-                var panel = $(this).next();
-
-                if ($(this).hasClass("active")) {
-                // Hide
-                panel.stop(true).slideUp();
-                $(this).removeClass("active");
-                } else {
-                // Open
-                panel.stop(true).slideDown();
-                $(this).addClass("active");
-                }
-            });
-		
-			});
-		})(jq);
-		-->
-    </script>
+    <script src="Scripts/bundle.min.js"></script>
   </body>
 </html>
